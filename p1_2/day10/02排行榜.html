@@ -1,0 +1,110 @@
+<!--
+ * @Author: Ray123
+ * @Description: 
+ * @Date: 2023-03-22 11:09:52
+ * @LastEditTime: 2023-03-22 14:52:43
+ * @FilePath: \p1_2\day10\02排行榜.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-size: 12px;
+            
+        }
+
+        .box{
+            width: 226px;
+            height: 161px;
+            background: khaki;
+            position: relative;
+        }
+
+        .box a{
+            display: block;
+        }
+
+        
+
+        .box img{
+            width: 226px;
+            height: 161px;
+        }
+
+        .box:hover .box1{
+            transition: 4s;
+            opacity: 1;
+        }
+        .box1{
+            width: 226px;
+            height: 26px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            opacity: 0;
+            
+         
+        }
+
+        .box1 p{
+            color: white;
+        }
+
+        .box1_1{
+            width: 12px;
+            height: 26px;
+            padding-left: 7px;
+            background: red;
+            float: left;
+        }
+
+        .box1_1 p{
+            line-height: 26px;
+        }
+        
+
+
+        .box1_2{
+            width: 197px;
+            height: 26px;
+            padding-left: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            float: left;
+        }
+
+        .box1_2 p{
+            width: 197px;
+            line-height: 26px;
+            white-space:nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <a href="#">
+            <img src="./img/img1.jpg" alt="">
+            <div class="box1">
+                <div class="box1_1">
+                    <p>1</p>
+                </div>
+                <div class="box1_2">
+                    <p>微信支付，告别收银台什么的内容你知道吗？</p>
+                </div>
+                
+            </div>
+        </a>
+
+    </div>
+    
+</body>
+</html>

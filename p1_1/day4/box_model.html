@@ -1,0 +1,52 @@
+<!--
+ * @Author: Ray123
+ * @Description: 盒子模型刘亦菲
+ * @Date: 2023-03-16 16:12:11
+ * @LastEditTime: 2023-03-16 16:48:31
+ * @FilePath: \p1-1\day4\box_model.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>刘亦菲盒子模型</title>
+    <style>
+        .box{
+            width: 500px;
+            height: 500px;
+            background-color: aquamarine;
+            overflow: hidden;/*防止margin-top出问题*/
+            margin: 0 auto;
+    
+        }
+        .liu{
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;/*水平居中*/
+            margin-top: 40px;/*小心出错！*/
+            
+        }
+
+        .text{
+            text-align: center;
+            color: salmon;
+        }
+
+        
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="box">
+        <div class="liu"><img src="./pics/liuyifei.jpg" alt="" width="200px" height="200px"></div>
+
+        <p class="text">这是啊啊啊啊啊啊啊啊</p>
+        
+
+    </div>
+
+    
+</body>
+</html>

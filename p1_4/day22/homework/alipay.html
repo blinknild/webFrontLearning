@@ -1,0 +1,433 @@
+<!--
+ * @Author: Ray123
+ * @Description: 
+ * @Date: 2023-04-03 16:58:49
+ * @LastEditTime: 2023-04-04 10:22:44
+ * @FilePath: \undefinede:\QianFeng2304\p1_4\day22\homework\alipay.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+    <script src="./js/flexble.js"></script>
+    <script src="./icon/iconfont.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        .header {
+            height: 317px;
+            background: #3f454f;
+        }
+
+        .h_top {
+            width: 100%;
+            height: 81px;
+            background: #3f454f;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .ht_left {
+            height: 81px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .ht_right ul {
+            display: flex;
+        }
+
+        .ht_right li {
+            margin-right: 35px;
+        }
+
+        .h_bottom ul{
+            width:750px;
+            height: 236px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+          
+        }
+
+        .h_bottom svg{
+            margin-bottom: 20px;
+        }
+
+        article ul{
+            width: 750px;
+            height: 540px;
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+
+        article ul li{
+            width: 187px;
+            height: 180px;
+            background: #fff;
+            border-right:1px solid grey ;
+            border-bottom:1px solid grey  ;
+            text-align: center;
+            padding-top: 44px;
+            
+             /* display: flex;
+             justify-content: space-around;
+             align-items: center; */
+        }
+
+        article li p{
+            font-size: 25px;
+
+        }
+
+        .banner{
+            width: 750px ;
+            height: 230px;
+            background: #f5f5f9;
+            padding:30px 0;
+        }
+
+        .banner_main{
+            width: 750px;
+            height: 170px;
+            background: pink;
+
+        }
+
+        .banner_main img{
+            width: 750px;
+            height: 170px;
+            
+        }
+
+        footer{
+            width: 750px;
+            height: 100px;
+            background: pink;
+            position: fixed;
+            left: 0;bottom: 0;
+        }
+
+        .footer1{
+            width: 750px;
+            height: 100px;
+            
+        }
+
+        footer ul{
+            word-wrap: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        footer ul li p{
+            font-size: 20px;
+
+
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="h_top">
+                <div class="ht_left">
+                    <svg class="icon" aria-hidden="true" style="font-size: 40px;margin-left:20px;">
+                        <use xlink:href="#icon-wj-zd"></use>
+                    </svg>
+                    <span style="font-size: 30px;margin-left: 20px;">账单</span>
+                </div>
+                <div class="ht_right">
+                    <ul>
+                        <li>
+                            <svg class="icon" aria-hidden="true" style="font-size: 40px;">
+                                <use xlink:href="#icon-yonghu-yuan
+                                "></use>
+                            </svg>
+                        </li>
+                        <li>
+                            <svg class="icon" aria-hidden="true" style="font-size: 40px;">
+                                <use xlink:href="#icon-sousuo"></use>
+                            </svg>
+                        </li>
+                        <li>
+                            <svg class="icon" aria-hidden="true" style="font-size: 40px;">
+                                <use xlink:href="#icon-tianjia"></use>
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="h_bottom">
+                <ul>
+                    <li>
+                        <svg class="icon" aria-hidden="true" style="font-size: 70px;">
+                            <use xlink:href="#icon-saoyisao"></use>
+                        </svg>
+                        <p style="font-size: 30px;">扫一扫</p>
+
+                    </li>
+                    <li>
+                        <svg class="icon" aria-hidden="true" style="font-size: 70px;">
+                            <use xlink:href="#icon-fukuan"></use>
+                        </svg>
+                        <p style="font-size: 30px;">付款</p>
+
+                    </li>
+                    <li>
+                        <svg class="icon" aria-hidden="true" style="font-size: 70px;">
+                            <use xlink:href="#icon-kaquan"></use>
+                        </svg>
+                        <p style="font-size: 30px;">卡券</p>
+
+                    </li>
+                    <li>
+                        <svg class="icon" aria-hidden="true" style="font-size: 70px;">
+                            <use xlink:href="#icon-sousuo"></use>
+                        </svg>
+                        <p style="font-size: 30px;">咻一咻</p>
+        
+
+                    </li>
+                </ul>
+                
+                
+               
+               
+
+            </div>
+
+
+        </div>
+    </header>
+
+    <article>
+        <ul>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:white;">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+        </ul>
+    </article>
+
+    <div class="banner">
+        <div class="banner_main">
+            <img src="./img/images/pic2_03.jpg" alt="">
+
+        </div>
+    </div>
+
+    <article>
+        <ul>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 60px;color:skyblue">
+                    <use xlink:href="#icon-zhuanzhang"></use>
+                </svg>
+                <p>转账</p>
+            </li>
+        </ul>
+    </article>
+
+    <footer>
+        <ul>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 50px;">
+                    <use xlink:href="#icon-zhifupingtai-zhifubao"></use>
+                </svg>
+                <p>支付宝</p>
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 50px;">
+                    <use xlink:href="#icon-koubei"></use>
+                </svg>
+                <p>口碑</p>
+
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 50px;">
+                    <use xlink:href="#icon-pengyou"></use>
+                </svg>
+                <p>朋友</p>
+
+            </li>
+            <li>
+                <svg class="icon" aria-hidden="true" style="font-size: 50px;">
+                    <use xlink:href="#icon-wode"></use>
+                </svg>
+                <p>我的</p>
+                
+            </li>
+        </ul>
+        
+    </footer>
+    <div class="footer1"></div>
+</body>
+
+</html>

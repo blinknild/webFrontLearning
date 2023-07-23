@@ -1,0 +1,72 @@
+<!--
+ * @Author: Ray123
+ * @Description: 
+ * @Date: 2023-03-23 15:00:27
+ * @LastEditTime: 2023-03-23 15:17:36
+ * @FilePath: \p1_2\day11\03锚点跳转.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+
+        li{
+            list-style: none;
+            width: 100px;
+            height: 60px;
+            background: salmon;
+
+            text-align: center;
+            line-height: 60px;
+            margin: 10px;
+
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        .navi{
+            width: 120px;
+            height: 290px;
+            background: yellow;
+            position: fixed;
+            right: 100px;
+            top: 50%;
+            margin-top:-145px ;
+        }
+
+        .content div{
+            width: 500px;
+            height: 500px;
+            background: pink;
+            border: 5px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="navi">
+        <ul>
+            <li><a href="#1">第一章</a></li>
+            <li><a href="#2">第二章</a></li>
+            <li><a href="#3">第三章</a></li>
+            <li><a href="#4">第四章</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="content1" id="1">111111111</div>
+        <div class="content2" id="2">22222222222</div>
+        <div class="content3" id="3">33333333333</div>
+        <div class="content4" id="4">4444444444</div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,359 @@
+<!--
+ * @Author: Ray123
+ * @Description: 
+ * @Date: 2023-03-15 17:19:40
+ * @LastEditTime: 2023-03-15 20:07:55
+ * @FilePath: \p1-1\day3\homework\选做题.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>色块练习</title>
+    <style>
+        *{
+            font-size: 16px;
+        }
+        ul,ol{
+            list-style: none;
+            /* 清除内外边距 */
+            margin: 0;
+            padding: 0;
+            float: left;
+        }
+        /* ******************************************************************** */
+
+        .a1{
+            width: 1000px;
+            height: 50px;
+        }
+
+        .pink{
+            width: 100px;
+            height: 50px;
+            color: black;
+            text-align: center;
+            line-height: 50px;
+            background-color: pink;
+        }
+
+        .green{
+            width: 100px;
+            height: 50px;
+            color: black;
+            text-align: center;
+            line-height: 50px;
+            background-color: green;
+        }
+        /* ******************************************************************** */
+        .a2{
+            width: 1000px;
+            height: 400px;
+            background-color: #a52a2a;
+        }
+        /* ******************************************************************** */
+        .a3{
+            width: 1000px;
+            height: 250px;
+            background-color: #8a2be2;
+        }
+        .orange{
+            width: 230px;
+            height: 200px;
+            margin-top: 25px;
+            margin-right: 30px;
+            color: black;
+            /* text-align: center;
+            line-height: 250px; */
+            background-color: orange;
+            float: left;
+        }
+        .green2{
+            width: 230px;
+            height: 200px;
+            margin-top: 25px;
+            margin-right: 30px;
+            color: black;
+            /* text-align: center;
+            line-height: 250px; */
+            background-color: green;
+            float: left;
+        }
+
+        .green3{
+            width: 220px;
+            height: 200px;
+            margin-top: 25px;
+            color: black;
+            /* text-align: center;
+            line-height: 250px; */
+            background-color: green;
+            float: left;
+        }
+        /* ******************************************************************** */
+        .a4{
+            /* a4和a6,a8,a10区域完全一致 */
+            width: 1000px;
+            height: 60px;
+            background-color: grey;
+            color: black;
+            text-align: center;
+            line-height: 60px;
+        }
+        /* ******************************************************************** */
+        .a5{
+            width: 1000px;
+            height: 400px;
+            background-color: blue;
+        }
+        .b51{
+            width: 425px;
+            height: 400px;
+            margin-left: 25px;
+            margin-right: 50px;
+            background-color: skyblue;
+            float: left;
+        }
+        .b52{
+            width: 215px;
+            height: 175px;
+            background-color: #ff4500;
+            margin-right: 25px;
+            margin-bottom: 25px;
+            float: left;
+        }
+        .b53{
+            width: 215px;
+            height: 175px;
+            background-color: green;
+            margin-left: 25px;
+            margin-bottom: 25px;
+            float: left;
+        }
+        .b54{
+            width: 215px;
+            height: 175px;
+            background-color: #ffd700;
+            margin-right: 25px;
+            margin-top: 25px;
+            float: left;
+        }
+        .b55{
+            width: 215px;
+            height: 175px;
+            background-color: #ff1493;
+            margin-left: 25px;
+            margin-top: 25px;
+            float: left;
+        }
+        .b555{
+            width: 480px;
+            height: 400px;
+            background-color: #f08080;
+            float: left;
+
+        }
+        /* ******************************************************************** */
+        .a7{
+            width: 1000px;
+            height: 340px;
+            background-color: #9acd32;
+        }
+        .a71{
+            width: 200px;
+            height: 320px;
+            float: left;
+        }
+        .b71{
+            width: 200px;
+            height: 240px;
+            background-color: pink;
+            float: left;
+        }
+        .b72{
+            width: 200px;
+            height: 100px;
+            float: left;
+            background-color: rgb(0,191,255);
+        }
+        .b73{
+            width: 200px;
+            height: 170px;
+            background-color: #afeeee;
+            float: left;
+            
+        }
+        .b74{
+            width: 200px;
+            height: 170px;
+            background-color: #008b8b;
+            float: left;
+            
+        }
+        .b75{
+            width: 200px;
+            height: 170px;
+            background-color: yellow;
+            float: left;
+        }
+        .b76{
+            width: 200px;
+            height: 170px;
+            background-color: #ff4500;
+            float: left;
+        }
+        /* ******************************************************************** */
+        .a9{
+            width: 1000px;
+            height: 250px;
+        }
+        .b91{
+            width: 250px;
+            height: 250px; 
+            background-color: #ff69b4;
+            float: left;   
+        }
+        .b92{
+            width: 250px;
+            height: 250px;
+            background-color: #87cefa;
+            float: left;
+        }
+        /* .a11{
+            width: 1000px;
+            height: 400px;
+        }
+        .a111{
+            width: 500px;
+            height: 400px;
+            float: left;
+        }
+        .a112{
+            width: 500px;
+            height: 400px;
+            float: left;
+        }
+        .b111{
+            width: 500px;
+            height: 200px;
+            background-color: #008000;
+            float: left;
+        }
+        .b112{
+            width: 250px;
+            height: 200px;
+            background-color: #1e90ff;
+            float: left;
+            
+        }
+        .b113{
+            width: 250px;
+            height: 200px;
+            background-color: #ff1493;
+            float: left;
+        } */
+        .a12{
+            width: 1000px;
+            height: 50px;
+            background-color: grey;
+            color: black;
+            text-align: center;
+            line-height: 50px;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <!-- navigation_bar -->
+    <div class="a1">
+        <ul>
+            <ol class="pink">首页1</ol>
+            <ol class="green">首页2</ol>
+            <ol class="pink">首页3</ol>
+            <ol class="green">首页4</ol>
+            <ol class="pink">首页5</ol>
+            <ol class="green">首页6</ol>
+            <ol class="pink">首页7</ol>
+            <ol class="green">首页8</ol>
+            <ol class="pink">首页9</ol>
+            <ol class="green">首页10</ol>
+        </ul>
+    </div>
+
+    <div class="a2"></div>
+    <div class="a3">
+        <ul>
+            <li class="orange">1</li>
+            <li class="green2">2</li>
+            <li class="orange">3</li>
+            <li class="green3">4</li>
+        </ul>
+    </div>
+
+    <!-- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+
+    <div class="a4">我是文字内容</div>
+    <div class="a5">
+        <ul>
+            <li class="b51">1</li>
+            <div class="b555">
+                <li class="b52">1</li>
+                <li class="b53">2</li>
+                <li class="b54">3</li>
+                <li class="b55">4</li>
+            </div>
+            
+        </ul>
+    </div>
+    <div class="a4">我是文字内容</div><!--此处是a6-->
+    <div class="a7">
+        <ul>
+            <div class="a71">
+                <li class="b71">1</li>
+                <li class="b72">2</li>
+            </div>
+            
+            <li class="b73">1</li>
+            <li class="b74">2</li>
+            <li class="b73">3</li>
+            <li class="b74">4</li>
+            <li class="b75">5</li>
+            <li class="b76">6</li>
+            <li class="b75">7</li>
+            <li class="b76">8</li>
+        </ul>
+    </div>
+    <div class="a4">我是文字内容</div><!--此处是a8-->
+    <div class="a9">
+        <ul>
+            <li class="b91">1</li>
+            <li class="b92">2</li>
+            <li class="b91">3</li>
+            <li class="b92">4</li>
+        </ul>
+    </div>
+    <!-- <div class="a4">我是文字内容</div>此处是a10 -->
+    <!-- <div class="a11">
+        <div class="a111">
+            <ul>
+                <li class="b111">1</li>
+                <li class="b112">2</li>
+                <li class="b113">3</li>
+            </ul>
+        </div>
+        <div class="a112">
+            <ul>
+                <li class="b112">1</li>
+                <li class="b113">2</li>
+                <li class="b111">3</li>
+            </ul> 
+        </div>
+    </div> -->
+    <div class="a12">我是底部页面</div>
+    
+</body>
+</html>

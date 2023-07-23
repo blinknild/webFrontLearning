@@ -1,0 +1,315 @@
+html{
+    font-size: calc(100vw/7.5);
+}
+
+/* <!-- search区高度100 --> */
+.search{
+    width: 7.5rem;
+    height: 1rem;
+    background: pink;
+}
+.s1{
+    width: 1.72rem;
+    height: 1rem;
+    padding-left: .3rem;
+    float: left;
+}
+
+.s1 p{
+    font-size: .34rem;
+    float: left;
+    margin-top: .36rem;
+}
+
+.s1 span{
+    font-size: .15rem;
+    float: left;
+    margin-top: .46rem;
+
+}
+
+.s2{
+    width: 4.75rem;
+    height: 1rem;
+    float: left;
+    padding-top: .25rem;
+}
+
+.s2 .box{
+    padding-top: .15rem;
+    height: .56rem;
+    width: 4.75rem;
+    background: #f2f2f2;
+    border-radius: .28rem;
+
+
+}
+
+.s2 p{
+    margin-left: .32rem;
+    margin-right: .1rem;
+    float:left;
+    
+}
+
+.s2 input{
+    display: block;
+    float:left;
+    border:0;
+
+}
+
+.s2 input::placeholder{
+    color:#8e8e8e;
+    background: #f2f2f2;
+}
+
+.s3{
+    width: 1.03rem;
+    height: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    float: left;
+}
+
+.s3 p{
+    font-size: .46rem;
+}
+
+/* <!-- banner256但是有52pt --> */
+.banner{
+    width: 7.5rem;
+    height: 2.56rem;
+    padding-top: .52rem;
+    text-align: center;
+}
+
+.banner img{
+    width: 7rem;
+    height: 2.05rem;
+}
+
+/* 大字区161高度，可复制 */
+.dazi{
+    width: 7.5rem;
+    height: 1.61rem;
+    padding-left: .25rem;
+    text-align: left;
+    line-height: 1.61rem;
+    background: lightgray;;
+}
+
+.dazi p{
+    font-size: .4rem;
+    font-weight: 650;
+}
+
+/* l1区间高度250 */
+.l1{
+    width: 7.5rem;
+    height: 2.5rem;
+    padding-left: .25rem;
+    margin-bottom: .45rem;
+}
+
+.l1 ul{
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+
+.l1 ul li{
+    width: 3.5rem;
+    height: 1.5rem;
+    background: lightgray;;
+    position: relative;
+}
+
+.l1 ul li img{
+    width: .45rem;
+    height: .5rem;
+}
+
+.l1 span{
+    font-size: .3rem;
+    position: absolute;
+    top: 0;
+    left: .7rem;
+}
+
+.l1 p{
+    font-size: .24rem;
+    position: absolute;
+    top: .55rem;
+    left: .05rem;
+}
+
+/* <!-- shaixuan100 --> */
+.shaixuan{
+    width: 7.5rem;
+    height: 1rem;
+    
+}
+
+.shaixuan ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.shaixuan ul li{
+    width: 1.8rem;
+    height: .5rem;
+    padding-left: .25rem;
+
+}
+
+.shaixuan ul li p{
+    font-size: .26rem;
+    float: left;
+}
+
+.shaixuan ul li span{
+    font-size: .16rem;
+    float: left;
+
+}
+
+/* <!-- doctor300 --> */
+.doctor{
+    width: 7.5rem;
+    height: 3rem;
+    background: lightgray;
+}
+
+.doctor_main{
+    width: 6.46rem;
+    height: 2.38rem;
+    margin: 0 auto;
+    background: white;
+    padding-top: .37rem;
+    padding-left: .25rem;
+}
+.doctor .left{
+    width: 1.5rem;
+    height: 100%;
+    background: white;
+    float: left;
+}
+
+.doctor .left img{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 1.2rem;
+}
+
+.doctor .right{
+    width: 4rem;
+    height: 100%;
+    float: left;
+}
+
+.r1{
+    width: 2.13rem;
+    height: .72rem;
+    overflow: hidden;
+
+}
+
+.r2{
+    width: 2.5rem;
+    height: .6rem;
+
+}
+
+.r3{
+    width: 3.38rem;
+    height: .68rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.r1 .sp1{
+    float: left;
+    font-size: .33rem;
+
+}
+
+.r1 .sp2{
+    float: left;
+    font-size: .22rem;
+    margin-top: .1rem;
+}
+
+.r2 p{
+    font-size: .25rem;
+}
+.r3 p{
+    font-size: .2rem;
+}
+.r3 .box1{
+    width: .9rem;
+    height: .4rem;
+    background: pink;
+    text-align: center;
+    line-height: .4rem;
+    border-radius: .2rem;
+}
+
+.r3 .box2{
+    width: .9rem;
+    height: .4rem;
+    background: orange;
+    text-align: center;
+    line-height: .4rem;
+    border-radius: .2rem;
+}
+
+.r3 .box3{
+    width: .9rem;
+    height: .4rem;
+    background: skyblue;
+    text-align: center;
+    line-height: .4rem;
+    border-radius: .2rem;
+}
+
+.dibu p{
+    font-size: .2rem;
+    margin-bottom: 1.1rem;
+}
+
+footer{
+    width: 7.5rem;
+    height: 1.1rem;
+    background: lightgray;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
+
+}
+
+footer ul{
+    width: 7.5rem;
+    height: 1.1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li{
+    width: 1.1rem;
+    height: 1.1rem;
+    text-align: center;
+}
+
+footer li div{
+    font-size: .6rem;
+}
+
+footer p{
+    font-size: .2rem;
+    font-size: .26rem;
+}
+

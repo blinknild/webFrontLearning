@@ -1,0 +1,110 @@
+<!--
+ * @Author: Ray123
+ * @Description: 
+ * @Date: 2023-03-29 11:34:46
+ * @LastEditTime: 2023-03-29 14:01:37
+ * @FilePath: \day17\02名鞋库精灵.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 847px;
+            height: 238px;
+            background: pink;
+            /* margin: 200px; */
+            border-left: 1px solid black;
+            border-top: 1px solid black;
+        }
+
+
+
+        .box li {
+            list-style: none;
+            width: 120px;
+            height: 78px;
+            background: salmon;
+            border-right: 1px solid white;
+            border-bottom: 1px solid white;
+
+            float: left;
+        }
+
+        .box li:nth-child(1) {
+            background: url(./img/default_brandwall_bgwide.png);
+            background-position: -292px 0;
+        }
+
+        .box li:nth-child(2) {
+            background: url(./img/default_brandwall_bgwide.png);
+            background-position: -461px 0;
+        }
+
+        .box li:nth-child(8){
+            position: relative;
+        }
+
+        .box li:nth-child(8) div{
+            width: 54px;
+            height: 60px;
+            background: white;
+            position: absolute;
+            left: 50%;
+            margin-left: -27px;
+            top: 50%;
+            margin-top: -30px;
+            background: url(./img/default_brandwall_bgwide.png);
+            background-position: 0 -102px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <ul>
+            <li></li>
+            <li></li>
+            <li>
+                <div></div>
+            </li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+
+            <li>
+                <div></div>
+            </li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+    </div>
+
+</body>
+
+</html>

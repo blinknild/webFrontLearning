@@ -1,0 +1,674 @@
+/* <!-- nav(962*130)区分为2个部分来写
+    nav1(962*95) --> */
+.big_header {
+    width: 100%;
+    height: 130px;
+    background: #e50011;
+}
+
+header {
+    width: 962px;
+    height: 130px;
+    background: #e50011;
+    margin: 0 auto;
+}
+
+.nav1 {
+    width: 962px;
+    height: 95px;
+    background: #e50011;
+}
+
+/* nav1(962*95)分3个盒子336-346-280 */
+.nav1_1 {
+    width: 336px;
+    height: 95px;
+    background: #e50011;
+    float: left;
+    line-height: 95px;
+}
+
+.nav1_1 img {
+    vertical-align: middle;
+}
+
+.nav1_2 {
+    width: 346px;
+    height: 65px;
+    padding-top: 30px;
+    background: #e50011;
+    float: left;
+}
+
+.nav1_2_input {
+    width: 320px;
+    height: 30px;
+    background: white;
+    border: 1px solid white;
+
+}
+
+.nav1_2_input_1 {
+    width: 75px;
+    height: 30px;
+    background: skyblue;
+    float: left;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+}
+
+.nav1_2_input_1:hover .xiala {
+    border-top: 0;
+    display: block;
+}
+
+.nav1_2_input_1:hover {
+    border-bottom: 0;
+}
+
+.xiala {
+    width: 75px;
+    height: 60px;
+    background: #e50011;
+    z-index: 1000;
+    position: absolute;
+    left: -1px;
+    top: 30px;
+    display: none;
+    border: 1px solid white;
+
+}
+
+.xiala a {
+    display: block;
+    line-height: 30px;
+
+}
+
+.nav1_2_input_2 {
+    width: 14px;
+    height: 18px;
+    background: #e50011;
+    float: left;
+    padding-top: 12px;
+}
+
+.nav1_2_input_arrow {
+    width: 0;
+    border-top: 7px solid #656565;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+}
+
+.nav1_2_input_3 {
+    width: 201px;
+    height: 30px;
+    background: #e50011;
+    float: left;
+}
+
+.nav1_2_input_3 input {
+    width: 201px;
+    height: 30px;
+    outline: none;
+    border: 0;
+    float: left;
+
+}
+
+.nav1_2_input_3 input::placeholder {
+    color: #a9a9a9;
+    font-size: 12px;
+}
+
+.nav1_2_input_4 {
+    width: 30px;
+    height: 30px;
+    background: #e50011;
+    float: left;
+    line-height: 30px;
+}
+
+
+.nav1_2_input_4 a {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+.nav1_3 {
+    padding-top: 35px;
+    width: 280px;
+    height: 60px;
+    font-size: 0;
+    background: #e50011;
+    float: left;
+}
+
+
+
+
+.nav1_3 a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 0 10px;
+    border-right: 2px white solid;
+}
+
+.nav2 {
+    width: 962px;
+    height: 35px;
+    background: orange;
+}
+
+.nav2_1 {
+    width: 498px;
+    height: 35px;
+    background: grey;
+    float: left;
+}
+
+.nav2_1 li {
+    list-style: none;
+    width: 75px;
+    height: 35px;
+    background: #e50011;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.nav2_1 li:first-child {
+    width: 48px;
+    height: 35px;
+    background: #e50011;
+}
+
+.nav2_1 li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+.nav2_1 li a:hover {
+    background: white;
+    color: #e50011;
+}
+
+
+
+
+
+.nav2_2 {
+    font-size: 0;
+    padding-top: 10px;
+    width: 464px;
+    height: 25px;
+    background: grey;
+    float: left;
+}
+
+.nav2_2 a {
+    width: 93px;
+    height: 16px;
+    float: right;
+    padding: 0 10px;
+    border-right: 1px solid white;
+}
+
+.nav2_2 img {
+    width: 93px;
+    height: 16px;
+
+}
+
+
+/* banner区962*472 */
+.big_banner {
+    width: 100%;
+    height: 472px;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.big_banner .pics {
+    width: 100%;
+    height: 472px;
+    overflow: hidden;
+}
+
+.big_banner .pics img {
+    display: block;
+    width: 100%;
+    height: 472px;
+}
+
+.big_banner .butt {
+    width: 960px;
+    height: 160px;
+    position: absolute;
+    left: 50%;
+    margin-left: -480px;
+    bottom: 0;
+}
+
+.big_banner .butt img {
+    width: 320px;
+    height: 160px;
+    float: left;
+
+}
+
+/* icons区高度180 */
+.big_icons {
+    width: 100%;
+    height: 180px;
+    background: white;
+}
+
+.icons {
+    padding-top: 50px;
+    width: 962px;
+    height: 130px;
+    background: white;
+    margin: 0 auto;
+}
+
+.icons li {
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 0 25px;
+}
+
+.icons li:nth-child(1) {
+    background: url(../../探路者/img/ic1.png);
+}
+
+.icons li:nth-child(2) {
+    background: url(../../探路者/img/ic2.png);
+}
+
+.icons li:nth-child(3) {
+    background: url(../../探路者/img/ic3.png);
+}
+
+.icons li:nth-child(4) {
+    background: url(../../探路者/img/ic4.png);
+}
+
+.icons li:nth-child(5) {
+    background: url(../../探路者/img/ic5.png);
+}
+
+.icons li:nth-child(6) {
+    background: url(../../探路者/img/ic6.png);
+}
+
+.icons li:nth-child(7) {
+    background: url(../../探路者/img/ic7.png);
+}
+
+.icons li:nth-child(1):hover {
+    background: url(../../探路者/img/ic8.gif);
+}
+
+.icons li:nth-child(2):hover {
+    background: url(../../探路者/img/ic9.gif);
+}
+
+.icons li:nth-child(3):hover {
+    background: url(../../探路者/img/ic10.gif);
+}
+
+.icons li:nth-child(4):hover {
+    background: url(../../探路者/img/ic11.gif);
+}
+
+.icons li:nth-child(5):hover {
+    background: url(../../探路者/img/ic12.gif);
+}
+
+.icons li:nth-child(6):hover {
+    background: url(../../探路者/img/ic13.gif);
+}
+
+.icons li:nth-child(7):hover {
+    background: url(../../探路者/img/ic14.gif);
+}
+
+.icons li:first-child {
+    margin-left: 50px;
+}
+
+/* 新闻区news：962*345 */
+.big_news {
+    width: 100%;
+    height: 345px;
+    background: lightgrey;
+    overflow: hidden;
+}
+
+.news {
+    width: 962px;
+    height: 265px;
+    background: skyblue;
+    margin: 40px auto;
+}
+
+.news_left {
+    width: 714px;
+    height: 265px;
+    background: white;
+    float: left;
+}
+
+.news_left_top {
+    padding-left: 20px;
+    width: 694px;
+    height: 42px;
+    overflow: hidden;
+
+    background: white;
+    position: relative;
+}
+
+.news_left_top p {
+    font-size: 15px;
+    margin-top: 15px;
+
+
+}
+
+.news_left_top a {
+    display: block;
+    width: 42px;
+    height: 12px;
+    text-decoration: none;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -6px;
+
+
+}
+
+.news_left_bottom {
+    padding-left: 20px;
+    width: 694px;
+    height: 223px;
+    background: white;
+}
+
+.news_left_bottom li {
+    width: 320px;
+    height: 94px;
+    list-style: none;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    background: white;
+}
+
+.news_left_bottom .nlb_pic {
+    width: 142px;
+    height: 94px;
+    float: left;
+}
+
+.news_left_bottom .nlb_word {
+    padding-left: 8px;
+    padding-top: 20px;
+    line-height: 22px;
+    width: 170px;
+    height: 74px;
+    background: #f5f5f5;
+    float: left;
+}
+
+.nlb_word h5 {
+    font-size: 12px;
+    color: #333333;
+
+}
+
+.nlb_word p {
+    color: #b5989e;
+    font-size: 12px;
+
+}
+
+.news_left_bottom li img {
+    width: 142px;
+    height: 94px;
+
+}
+
+.news_right {
+    width: 248px;
+    height: 265px;
+    background: grey;
+    float: left;
+}
+
+.news_right_1 {
+    width: 248px;
+    height: 42px;
+    line-height: 42px;
+    background: white;
+    float: left;
+}
+
+.news_right_1 p {
+    font-size: 15px;
+}
+
+.news_right_2 {
+    width: 248px;
+    height: 92px;
+    background: white;
+    float: left;
+}
+
+.news_right_2 img {
+    width: 231px;
+    height: 92px;
+
+}
+
+.news_right_3 {
+    padding-top: 10px;
+    width: 248px;
+    height: 121px;
+    background: white;
+    float: left;
+}
+
+.news_right_3 h6 {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.news_right_3 p {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.news_right_3 a {
+    text-decoration: none;
+    display: block;
+    width: 76px;
+    height: 16px;
+    font-size: 14px;
+    background: url(../../探路者/img/arrow.jpg) yellowgreen no-repeat center right;
+
+}
+
+/* msg区962*400 */
+.big_msg {
+
+    width: 100%;
+    height: 400px;
+    background: white;
+}
+
+.msg {
+    padding: 60px 0;
+    width: 962px;
+    height: 280px;
+    background: white;
+    margin: 0 auto;
+}
+
+.msg li {
+    padding-right: 40px;
+    list-style: none;
+    float: left;
+    width: 265px;
+    height: 274px;
+    background: white;
+    margin-left: 22px;
+    border-right: 1px solid black;
+}
+
+.msg li:first-child {
+
+    margin-left: 0;
+
+}
+
+.msg li:last-child {
+    padding-right: 0;
+    width: 306px;
+    border: 0;
+
+}
+
+.msg_pic {
+    width: 266px;
+    height: 169px;
+
+}
+
+.msg_pic img {
+    width: 266px;
+    height: 169px;
+
+}
+
+.msg_word {
+    padding-top: 15px;
+    width: 266px;
+    height: 71px;
+    font-size: 12px;
+}
+
+.msg_icon {
+    font-size: 12px;
+    color: white;
+    width: 50px;
+    height: 19px;
+    background: #2ac180;
+
+}
+
+/* <!-- footer区962*210 --> */
+
+.big_footer {
+    width: 100%;
+    height: 210px;
+    background: #e50011;
+}
+
+footer{
+    width: 962px;
+    height: 178px;
+    background: #e50011;
+    margin: 0 auto;
+    padding-top: 32px;
+}
+
+.footer_icon{
+    width: 962px;
+    height: 38px;
+    background: #e50011;
+    margin-bottom: 20px;
+}
+
+footer .footer_icon_1{
+    width: 104px;
+    height: 38px;
+    background: #e50011;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer_icon_1 img{
+    width: 38px;
+    height: 38px;
+}
+
+.footer_icon_1_1{
+    width: 38px;
+    height: 38px;
+    background: #e50011;
+    float: left;
+}
+
+.footer_icon_1_1:hover .ewm_1{
+    display: block;
+}
+
+.footer_icon_1_2{
+    width: 38px;
+    height: 38px;
+    background: #e50011;
+    float: right;
+
+}
+
+.ewm_1{
+    width: 100px;
+    height: 100px;
+    background: greenyellow;
+    position: absolute;
+    left: -30px;top: -100px;
+    display: none;
+}
+
+
+.footer_nav{
+    width: 962px;
+    height: 20px;
+    background: #e50011;
+    font-size: 0;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer_nav a{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 0 5px;
+    border-right: 1px solid white;
+}
+
+.footer_nav a:last-child{
+    border: 0;
+}
+
+footer p{
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+}

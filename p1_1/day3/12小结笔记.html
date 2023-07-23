@@ -1,0 +1,95 @@
+<!--
+ * @Author: Ray123
+ * @Description: 
+ * @Date: 2023-03-16 08:51:58
+ * @LastEditTime: 2023-03-16 08:52:03
+ * @FilePath: \p1-1\day3\12小结笔记.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 内部样式 -->
+    <style>
+        /* 
+        (一)文本类型css
+        1.字体颜色    color:red/#000/rgb(0,0,0);
+        2.字体大小    font-size:16px;
+        3.水平对齐方式  text-align:left/center/right/justify(两端对齐);
+        4.文本修饰   text-decoration:none(去掉下划线)/underline(下划线)/line-through(删除线)/overline(上划线)
+        5.行高：第一行文字的中线到第二行文字的中线的距离
+            作用：
+                + 针对多行文本(字体大小一样)实现每行文本之间的距离(ps的测量：第一行文字的头部到第二行文字头部之间的距离)
+                + 针对单行文本做垂直居中   line-height:当前盒子的高度;
+
+        (二)背景类型css
+        1.背景颜色   background-color:red/#000/rgb(0,0,0);
+        2.背景图片   background-image:url(路径);
+        3.背景大小   background-size:;          css3属性
+
+
+        (三)其他类型css
+        1.宽度   width:200px;
+        2.高度   height:200px;
+        3.浮动   float:none/left/right;
+            3.1.特点：
+                + 给元素添加浮动之后，元素就飘了，就是自己的位置了，那么后排的元素会自动向前靠
+                + 给所有的元素添加左浮动之后，所有的元素都会按照顺利从左到右横着排列，如果遇到外层宽度不够的时候，会掉下去，然后依次排列，不会钻缝排列，而是按照上一行最高的盒子的高度的下方排列
+            3.2.作用：
+                + 实现竖着的元素横着排列
+            3.3.浮动是有副作用
+                + 当给所有的子元素都添加浮动之后，会全部飘了，这个时候一定要给外层套个大盒子，给大盒子添加height
+        */
+    </style>
+</head>
+<body>
+    <!-- 
+        (一)大标签  特点：独占一行或者一块区域，竖着排列
+        1.标题标签   <h1></h1>   ...    <h6></h6>
+        2.段落标签   <p></p>
+        3.块标签   <div></div>
+        4.表格标签  
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            标签html属性:
+                + 边框  border="1"
+                + 去掉单元格与单元格之间的间距  cellspacing="0"
+                + 去掉单元格的内边距   cellpadding="0"
+                + 合并右边的单元格(合并列)  colspan="合并的个数"
+                + 合并下边的单元格(合并行)  rowspan="合并的个数"
+                + 单元格里的内容水平对齐方式  align="left/center/right"
+        5.列表标签
+            5.1无序列表
+                <ul>
+                    <li></li>
+                </ul>
+            5.2有序列表
+                <ol>
+                    <li></li>
+                </ol>
+            5.3自定义列表
+                <dl>
+                    <dt></dt>
+                    <dd></dd>
+                    <dd></dd>
+                </dl>
+
+        (二)小标签   特点：挨着排列，且有默认间距
+        1.加粗标签   <b></b>   <strong></strong>
+        2.倾斜标签   <i></i>    <em></em>
+        3.文本节点标签   <span></span>
+        4.超链接标签   <a href="路径" target="_blank" title="链接标题"></a>
+
+        (三)其他标签
+        1.换行  <br>
+        2.水平线   <hr>
+     -->
+</body>
+</html>

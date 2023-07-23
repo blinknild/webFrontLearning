@@ -1,0 +1,345 @@
+/* <!-- 导航区1170*100 --> */
+.big_navi{
+    width: 100%;
+    height: 100px;
+    background: white;
+}
+
+.navi{
+    width: 1170px;
+    height: 100px;
+    background: white;
+    margin: 0 auto;
+    
+}
+
+.navi_logo{
+    width: 54px;
+    height: 100px;
+    background: white;
+    line-height: 100px;
+    float: left;
+}
+
+.navi_logo img{
+    vertical-align: middle;
+}
+
+.navi1{
+    width: 352px;
+    height: 100px;
+    background: white;
+    float: left;
+    font-size: 16px;
+
+}
+
+.navi1 li{
+    width: 72px;
+    height: 100px;
+    background: white;
+    float:left;
+    margin-left: 16px;
+    text-align: right;
+    line-height: 100px;
+
+}
+
+.navi1 li a{
+    color: #333333;
+}
+
+.navi1 li a:hover{
+    color:#53cac6
+}
+
+.navi2{
+    padding-top: 40px;
+
+    width: 207px;
+    height: 60px;
+    background: white;
+    float: left;
+    /* line-height: 100px; */
+    margin-left: 556px;
+
+}
+.navi2 li{
+    width: 103px;
+    height: 22px;
+    float: left;
+}
+
+.navi2 li:first-child{
+    border-right: 1px solid #e6e6e6;
+}
+
+.navi2 li:last-child{
+    text-align: right;
+}
+
+.navi2 img{
+    float: left;
+    /* margin-top: 40px; */
+}
+
+.navi2 span{
+    margin-left: 12px;
+    
+}
+
+/* <!-- 注册区1170*70,边框1,上下距离15 --> */
+.big_signup{
+    width: 100%;
+    height: 70px;
+    background: #fdf8e4;
+
+}
+
+.signup{
+    width: 1168px;
+    height: 53px;
+    background: #fdf8e4;
+    margin: 0 auto;
+    padding-top: 15px;
+    border: 1px solid #ffe7b9;
+}
+
+.signup_center{
+    width: 1168px;
+    height: 40px;
+    background: #fdf8e4;
+    text-align: center;
+    line-height: 40px;
+}
+
+.signup_center span{
+    font-size: 12px;
+    color: #bf5a7c;
+}
+
+
+/* <!-- banner1170*240 --> */
+.big_banner{
+    width: 100%;
+    height: 240px;
+    background: #f3f3f3;
+}
+
+.banner{
+    width: 1170px;
+    height: 240px;
+    background: #f3f3f3;
+    margin: 0 auto;
+}
+
+.banner img{
+    width: 100%;
+    height: 240px;
+}
+
+/* <!-- 内容区要分左右做自适应 --> */
+.big_content{
+    width: 100%;
+    /* height: 500px; */
+    background: #f3f3f3;
+}
+
+.content{
+    width: 1170px;
+    background: #f3f3f3;
+    /* height: 500px; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content_left{
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 50px;
+    width: 199px;
+    /* height: 500px; */
+    background: white;
+    border: 1px solid grey;
+    float: left;
+}
+.content_left dl{
+    width: 249px;
+    height: 120px;
+    background: white;
+
+}
+
+.content_left dt{
+    font-size:18px;
+    color:#96cbc3
+}
+
+.content_left dd{
+    font-size: 14px;
+    color:#9999b5;
+    float: left;
+    line-height: 33px;
+    margin-right: 22px;
+}
+
+
+
+.content_right{
+    width: 894px;
+    /* height: 500px; */
+    background: #f3f3f3;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    overflow: hidden;
+
+}
+
+.content_right_input{
+    width: 894px;
+    height: 60px;
+    border: 1px solid #e0e0e0;
+    background: white;
+}
+
+.content_right_input input{
+    width: 780px;
+    height: 60px;
+    border:0;
+    outline: none;
+    
+}
+
+.content_right_input button{
+    width: 104px;
+    height: 45px;
+    background: skyblue;
+}
+
+.content_right_job{
+    width: 879px;
+    height: 112px;
+    background: white;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.content_right_job li{
+    width: 32px;
+    padding-left: 8px;
+    padding-right: 8px;
+    list-style: none;
+    float: left;
+    font-size: 12px;
+    border-right: 2px #edecf4 solid;
+}
+
+.content_right_job .ul2{
+    float: right;
+
+}
+
+.content_right_job .li2{
+    width: 60px;
+    text-align: right;
+    padding-right: 8px;
+
+}
+
+.content_right_job .li3{
+    width: 60px;
+    text-align: left;
+    padding-left: 8px;
+
+}
+
+.content_right_job li:last-child{
+    border:0;
+}
+
+.content_right_job h2{
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.content_right_job h3{
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.content_right_job img{
+    float: right;
+}
+
+.content_right_job_zaixian{
+    width: 30px;
+    height: 21px;
+    background: green;
+    float: right;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    line-height: 21px;
+    margin-right: 10px;
+
+}
+.content_right_job_tubiao{
+    width: 50px;
+    height: 80px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-align: center;
+}
+
+.content_right_job_tubiao img{
+    width: 50px;
+    height: 50px;
+}
+
+.content_right_job_tubiao p{
+    font-size: 12px;
+}
+
+/* 最后的结尾，坚持一下 */
+.big_foot{
+    width: 100%;
+    height: 234px;
+    background: #000000;
+    overflow: hidden;
+}
+
+.foot{
+    width: 1170px;
+    height: 234px;
+    background: #000000;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.foot_nav{
+    font-size: 0;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+
+}
+
+.foot_nav a{
+    font-size: 16px;
+    margin-left: 23px;
+    margin-right: 23px;
+    color:white;
+}
+
+.foot p{
+    font-size: 12px;
+    line-height: 28px;
+    color: white;
+}

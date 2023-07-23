@@ -1,0 +1,508 @@
+/* <!-- 头部1205*112分上下两个部分来做
+header1是logo+nav
+header2下部是渐变盒子
+头部还存在24px的padding-bottom --> */
+
+.header1 {
+    width: 100%;
+    height: 82px;
+    background: white;
+}
+
+.header1_1 {
+    width: 1205px;
+    height: 82px;
+    background: white;
+    margin: 0 auto;
+}
+.header1_1_1{
+    width: 655px;
+    height: 82px;
+    background: white;
+    line-height: 82px;
+    float: left;
+}
+
+.header1_1_1 img{
+    vertical-align: middle;
+}
+
+
+.header1_1_2{
+    padding-top: 30px;
+
+    width: 550px;
+    height: 52px;
+    background: white;
+    float: left;
+}
+.header1_1_2 li{
+    width: 90px;
+    height: 82px;
+    float: left;
+}
+
+.header1_1_2 li:first-child a{
+    color:salmon;
+
+}
+.header1_1_2 li a{
+    font-size: 16px;
+
+}
+
+.header2 {
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(to bottom, #c1c1c1, #fff);
+    padding-bottom: 24px;
+}
+
+.big_banner {
+    width: 100%;
+    height: 500px;
+}
+
+.big_banner img {
+    width: 100%;
+    height: 500px;
+}
+
+/* <!-- project区420分上下部分
+    上部文字+背景图
+    下部列表 --> */
+
+.big_project{
+    width: 100%;
+    height: 420px;
+    background: white;
+}
+
+.project{
+    width: 1205px;
+    height: 420px;
+    background: white;
+    margin: 0 auto;
+}
+
+.project_top{
+    width: 1205px;
+    height: 80px;
+    background: white;
+    text-align: center;
+    line-height: 80px;
+}
+
+.project_top p{
+    font-size: 28px;
+    background: url(../HTML5模板/images/back_03.jpg) no-repeat bottom center;
+}
+
+.project_bottom{
+    width: 1205px;
+    height: 340px;
+    background: white;
+}
+
+.project_bottom li{
+    padding: 0 24px;
+    padding-top: 40px;
+    width: 253px;
+    height: 300px;
+    background: lightslategray;
+    float: left;
+    overflow: hidden;
+
+}
+
+.project_bottom_circle{
+    width: 100px;
+    height: 100px;
+    background: #1b97d7;
+    margin: 0 auto;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.project_bottom_circle img{
+    vertical-align: middle;
+}
+.project_bottom h2{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.project_bottom p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 14px;
+    
+}
+
+
+/* <!-- case区485分上下部分
+上部文字+背景图
+下部列表 --> */
+.big_case{
+    width: 100%;
+    height: 485px;
+    background: white;
+}
+
+.case{
+    width: 1205px;
+    height: 485px;
+    background: white;
+    margin: 0 auto;
+}
+
+.case_top{
+    width: 1205px;
+    height: 80px;
+    background: white;
+    text-align: center;
+    line-height: 80px;
+}
+
+.case_top p{
+    font-size: 28px;
+    background: url(../HTML5模板/images/back_03.jpg) no-repeat bottom center;
+}
+
+.case_bottom{
+    width: 1205px;
+    height: 293px;
+    padding-top: 40px;
+    padding-bottom: 72px;
+}
+
+.case_bottom li{
+    width: 290px;
+    height: 293px;
+    background: white;
+    float: left;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.case_bottom li:last-child{
+    margin-right: 0;
+}
+
+.case_bottom li img{
+    width: 268px;
+    height: 164px;
+    margin: 10px;
+
+}
+
+.case_bottom h2{
+    font-size: 16px;
+    text-align: center;
+    margin: 0 10px;
+    margin-top: 15px;
+  
+
+}
+
+.case_bottom p{
+    font-size: 12px;
+    text-align: center;
+    margin: 0 10px;
+    margin-top: 14px;
+    
+}
+
+/* <!-- our区450 --> */
+.big_our{
+    width: 100%;
+    height: 450px;
+    background: white;
+}
+
+.our{
+    width: 1205px;
+    height: 450px;
+    background: white;
+    margin: 0 auto;
+}
+
+.our_top{
+    width: 1205px;
+    height: 80px;
+    background: white;
+    text-align: center;
+    line-height: 80px;
+}
+
+.our_top p{
+    font-size: 28px;
+    background: url(../HTML5模板/images/back_03.jpg) no-repeat bottom center;
+}
+
+.our_bottom{
+    width: 1205px;
+    height: 370px;
+}
+
+.our_bottom img{
+    width: 1205px;
+    height: 370px;
+
+}
+
+/* <!-- our2区524 --> */
+.big_our2{
+    width: 100%;
+    height: 524px;
+    background: white;
+
+}
+
+.our2{
+    width: 1205px;
+    height: 524px;
+    background: white;
+    margin: 0 auto;
+}
+
+.our2_left{
+    width: 632px;
+    height: 428px;
+    background: white;
+    padding-top: 96px;
+    padding-left: 136px;
+    float: left;
+
+
+}
+
+.our2_right{
+    width: 355px;
+    height: 460px;
+    padding-top: 64px;
+    padding-right: 82px;
+    float: left;
+}
+.our2_right h5{
+    font-size: 16px;
+
+}
+
+.our2_right p{
+    font-size:12px;
+    line-height: 24px;
+
+}
+
+.box1,.box2{
+    width: 84px;
+    height: 34px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 34px;
+    margin-bottom: 30px;
+}
+
+/* c区 */
+.big_c{
+    width: 100%;
+    height: 331px;
+    background: white;
+}
+
+.c{
+    width: 1205px;
+    height: 331px;
+    background: white;
+    margin: 0 auto;
+}
+
+.c_top{
+    width: 1205px;
+    height: 80px;
+    background: white;
+    text-align: center;
+    line-height: 80px;
+}
+
+.c_top p{
+    font-size: 28px;
+    background: url(../HTML5模板/images/back_03.jpg) no-repeat bottom center;
+}
+
+.c_bottom{
+    width: 1205px;
+    height: 251px;
+
+}
+
+.c_bottom li {
+    width: 218px;
+    height: 118px;
+    border: 1px grey solid;
+    float: left;
+    margin-right: 26px;
+    text-align: center;
+    line-height: 118px;
+
+}
+.c_bottom li img{
+    vertical-align: middle;
+}
+
+.c_bottom li:last-child{
+    margin-right: 0;
+}
+
+.big_red{
+    width: 100%;
+    height: 10px;
+    background: red;
+}
+
+/* 底部1区344 */
+.big_footer{
+    width: 100%;
+    height: 344px;
+    background: gray;
+}
+
+.footer1{
+    width: 1205px;
+    height: 216px;
+    background: gray;
+    margin: 0 auto;
+    padding-top: 72px;
+    padding-bottom: 56px;
+   
+}
+
+
+.footer1_1{
+    width: 330px;
+    height: 216px;
+    background: gray;
+    float: left;
+    overflow: hidden;
+}
+
+.footer1_1 img{
+    margin-left: 75px;
+    margin-top: 45px;
+}
+
+.footer1_2{
+    padding-left: 80px;
+    width: 140px;
+    height: 216px;
+    background: gray;
+    float: left;
+}
+.footer1_2 li{
+    position: relative;
+}
+
+.footer1_2 li a{
+    color: white;
+    font-size: 12px;
+    line-height: 30px;
+}
+.footer1_2 img{
+    position: absolute;
+    left: -37px;
+    top: 0;
+
+}
+
+.footer1_2 li:first-child{
+    
+    margin-bottom: 20px;
+}
+
+.footer1_2 li:first-child a{
+    font-size: 18px;
+    
+}
+
+.footer1_3{
+    padding-left: 80px;
+    width: 140px;
+    height: 216px;
+    background: gray;
+    float: left;
+}
+.footer1_3 img{
+    position: absolute;
+    left: -37px;
+    top: 0;
+
+}
+
+.footer1_3 li a{
+    color: white;
+    font-size: 12px;
+    line-height: 30px;
+}
+.footer1_3 li{
+    position: relative;
+}
+
+.footer1_3 li:first-child{
+    
+    margin-bottom: 20px;
+}
+
+.footer1_3 li:first-child a{
+    font-size: 18px;
+    
+}
+.footer1_4{
+    padding-left: 80px;
+    width: 355px;
+    height: 216px;
+    background: gray;
+    float: left;
+}
+
+.footer1_4 li a{
+    color: black;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.footer1_4 li:first-child{
+    
+    margin-bottom: 20px;
+
+}
+
+.footer1_4 li:first-child a{
+    font-size: 18px;
+    
+}
+
+/* <!-- 最后的底部78 --> */
+.big_footer2{
+    width: 100%;
+    height: 78px;
+    background: black;
+}
+
+.footer2{
+    width: 1205px;
+    height: 78px;
+    background: pink;
+    margin: 0 auto;
+    line-height: 78px;
+}
+
+.footer2 p{
+    font-size: 12px;
+    text-align: center;
+   
+}

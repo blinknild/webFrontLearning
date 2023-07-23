@@ -1,0 +1,91 @@
+<!--
+ * @Author: Ray123
+ * @Description: 
+ * @Date: 2023-03-31 11:47:31
+ * @LastEditTime: 2023-03-31 15:40:50
+ * @FilePath: \day19\02逐帧动画.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            list-style: none;
+            float: left;
+            width: 180px;
+            height: 300px;
+            background: salmon url(./images/charector.png) no-repeat; 
+            
+              
+        }
+
+        li:nth-child(2n){
+            background: skyblue url(./images/charector.png) no-repeat;
+            animation: mov1 1s steps(7) infinite;
+        }
+
+        li:nth-child(2n-1){
+            background: salmon url(./images/charector.png) no-repeat;
+            animation: mov2 1s steps(7) infinite;
+
+        }
+
+        @keyframes mov1 {
+            from{
+                background-position: 0 0;
+                /* transform: rotate3d(1,1,1,0deg) */
+
+            }
+            to{
+                background-position: -1260px 0;
+                /* transform: rotate3d(1,1,1,360deg); */
+            }
+                
+        }
+
+        @keyframes mov2 {
+            from{
+                /* background-position: 0 0; */
+                transform: rotate3d(1,1,1,0deg)
+
+            }
+            to{
+                /* background-position: -1260px 0; */
+                transform: rotate3d(1,1,1,360deg);
+            }
+                
+        }
+    </style>
+</head>
+<body>
+    
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,142 @@
+html{
+    font-size: calc(100vw/7.5);
+}
+
+i,a{
+    display: block;
+}
+
+input{
+    display: block;
+}
+
+header{
+    width: 7.5rem;
+    height: .9rem;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+header>i {
+    font-size: .5rem !important;
+    margin: 0 .2rem;
+}
+
+header .txt{
+    font-size: .34rem;
+}
+
+.bendi li{
+    width: 100%;
+    height: 1.1rem;
+    background: #fbfcfd;
+}
+
+.gedan1 li{
+    width: 100%;
+    height: 1.1rem;
+    background: #fbfcfd;
+}
+
+li .li_left{
+    width: 1.36rem;
+    height: 100%;
+    background: #fbfcfd;
+    text-align: center;
+    padding-top: .3rem;
+    float: left;
+}
+
+.li_left i{
+    font-size: .5rem;
+    
+
+}
+
+.li_right{
+    width: 6.14rem;
+    background: #fbfcfd;
+    float: left;
+    height: 100%;
+    border-bottom: 1px solid #000;
+    padding-top: .4rem;
+    position: relative;
+}
+.li_right p{
+    font-size: .32rem;
+
+}
+
+.chuangjian{
+    height: .6rem;
+    width: 100%;
+    background: lightgray;
+}
+
+.cj1{
+    width: .6rem;
+    height: .6rem;
+    float: left;
+}
+
+.cj2{
+    width: 2rem;
+    height: .6rem;
+    float: left;
+    padding-top: .18rem;
+}
+
+.cj2 p{
+    font-size: .22rem;
+}
+
+
+
+footer{
+    width: 7.5rem;
+    height: 1rem;
+    background: #25241f;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: white;
+}
+
+footer i{
+    font-size: .5rem;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p{
+    font-size:.18rem;
+}
+
+footer li{
+    padding-top: .15rem;
+    width: 1.2rem;
+    text-align: center;
+}
+
+.p1{
+    width: .6rem;
+    height: .6rem;
+    position: absolute;
+    right: .12rem;
+    top:.12rem;
+}
+
+.p1 img{
+    width: .6rem;
+    height: .6rem;
+
+}

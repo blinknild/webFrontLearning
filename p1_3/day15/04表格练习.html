@@ -1,0 +1,112 @@
+<!--
+ * @Author: Ray123
+ * @Description: 
+ * @Date: 2023-03-27 16:11:50
+ * @LastEditTime: 2023-03-27 16:40:42
+ * @FilePath: \day15\04表格练习.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table{
+            width: 800px;
+            height: 140px;
+            border: 1px solid green;
+            border-spacing: 0;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        table th,td{
+            border: 1px solid green;
+        }
+
+        table .thead{
+            background: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>公考价目表</caption>
+        <tr class="thead">
+            <th><b>班次名称</b></th>
+            <th>科目</th>
+            <td>授课内同</td>
+            <td>04</td>
+            <td>05</td>
+            <td>06</td>
+            <td>试听</td>
+            <td>购买</td>
+        </tr>
+        <tr>
+            <td rowspan="3">真题境界班</td>
+            <td>行测+申论</td>
+            <td>全科历年真题精解</td>
+            <td rowspan="3">04</td>
+            <td>05</td>
+            <td style="color: red;">1280</td>
+            <td><a href="#"><img src="./img/耳机.jpg" alt=""></a></td>
+            <td><a href="#"><img src="./img/购物车.jpg" alt=""></a></td>
+        </tr>
+        <tr>
+            <!-- <td>01</td> -->
+            <td>02</td>
+            <td>03</td>
+            <!-- <td>04</td> -->
+            <td>05</td>
+            <td>06</td>
+            <td><a href="#"><img src="./img/耳机.jpg" alt=""></a></td>
+            <td><a href="#"><img src="./img/购物车.jpg" alt=""></a></td>
+        </tr>
+        <tr>
+            <!-- <td>01</td> -->
+            <td>02</td>
+            <td>03</td>
+            <!-- <td>04</td> -->
+            <td>05</td>
+            <td>06</td>
+            <td><a href="#"><img src="./img/耳机.jpg" alt=""></a></td>
+            <td><a href="#"><img src="./img/购物车.jpg" alt=""></a></td>
+        </tr>
+        <tr>
+            <td rowspan="3">高分技巧班</td>
+            <td>02</td>
+            <td>03</td>
+            <td rowspan="3">入学试卷测评<br>24小时内答疑</td>
+            <td>05</td>
+            <td>06</td>
+            <td><a href="#"><img src="./img/耳机.jpg" alt=""></a></td>
+            <td><a href="#"><img src="./img/购物车.jpg" alt=""></a></td>
+        </tr>
+        <tr>
+            <!-- <td>01</td> -->
+            <td>02</td>
+            <td>03</td>
+            <!-- <td>04</td> -->
+            <td>05</td>
+            <td>06</td>
+            <td><a href="#"><img src="./img/耳机.jpg" alt=""></a></td>
+            <td><a href="#"><img src="./img/购物车.jpg" alt=""></a></td>
+        </tr>
+        <tr>
+            <!-- <td>01</td> -->
+            <td>02</td>
+            <td>03</td>
+            <!-- <td>04</td> -->
+            <td>05</td>
+            <td>06</td>
+            <td><a href="#"><img src="./img/耳机.jpg" alt=""></a></td>
+            <td><a href="#"><img src="./img/购物车.jpg" alt=""></a></td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "id": "3986170",
+  "name": "第一个美食测试项目",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "400777",
+      "name": "food",
+      "font_class": "food",
+      "unicode": "e728",
+      "unicode_decimal": 59176
+    },
+    {
+      "icon_id": "364967",
+      "name": "tableware",
+      "font_class": "caigoutong106",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "364969",
+      "name": "Condiment bottles",
+      "font_class": "caigoutong108",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "365146",
+      "name": "Birds",
+      "font_class": "caigoutong1108",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    }
+  ]
+}

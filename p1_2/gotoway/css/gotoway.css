@@ -1,0 +1,52 @@
+/* <!-- navi导航区65 --> */
+.navi{
+    width: 1100px;
+    height: 65px;
+    background: salmon;
+}
+
+.navi_left{
+    width: 650px;
+    height: 50px;
+    background: skyblue;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+
+.navi_right{
+    width: 500px;
+    height: 65px;
+    background: aquamarine;
+}
+
+/* <!-- banner广告区423 --> */
+.banner{
+    width: 1100px;
+    height: 423px;
+    background: aqua;
+}
+/* <!-- msg信息区287 --> */
+.msg{
+    width: 1100px;
+    height: 287px;
+    background: aquamarine;
+}
+/* <!-- news新闻区383 --> */
+
+.news{
+    width: 1100px;
+    height: 383px;
+    background: yellow;
+}
+/* <!-- console咨询区48 --> */
+.console{
+    width: 1100px;
+    height: 48px;
+    background: #000;
+}
+/* <!-- footer底部区229 --> */
+.footer{
+    width: 1100px;
+    height: 229px;
+    background: pink;
+}

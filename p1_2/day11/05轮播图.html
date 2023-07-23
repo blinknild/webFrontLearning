@@ -1,0 +1,87 @@
+<!--
+ * @Author: Ray123
+ * @Description: 
+ * @Date: 2023-03-23 15:55:10
+ * @LastEditTime: 2023-03-25 17:13:26
+ * @FilePath: \p1_2\day11\05轮播图.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        .tt{
+            width: 1440px;
+            height: 200px;
+            background: pink;
+        }
+       
+        li{
+            list-style: none;
+            width: 20px;
+            height: 20px;
+            border-right: 1px dashed black;
+            float: left;
+            text-align: center;
+            line-height: 20px;
+        }
+        .box{
+            width: 84px;
+            height: 20px;
+            background: salmon;
+            position: absolute;
+            left: 50%;
+            margin-left: -42px;
+            bottom: 20px;
+        }
+        .pics{
+            width: 404px;
+            height: 300px;
+            overflow: hidden;
+            
+        }
+        .a{
+            width: 404px;
+            height: 300px;
+            position: relative;
+
+        }
+        img{
+            display: block;
+            width: 404px;
+            height: 300px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="tt"></div>
+    <div class="a">
+        <div class="box">
+            <ul>
+                <li><a href="#1">1</a></li>
+                <li><a href="#2">2</a></li>
+                <li><a href="#3">3</a></li>
+                <li><a href="#4">4</a></li>
+            </ul>
+        </div>
+        <div class="pics">
+            <img src="./img/img04.jpg" alt="" id="1">
+            <img src="./img/img05.jpg" alt="" id="2">
+            <img src="./img/img06.jpg" alt="" id="3">
+            <img src="./img/img07.jpg" alt="" id="4">
+        </div>
+
+    </div>
+    
+    
+</body>
+</html>

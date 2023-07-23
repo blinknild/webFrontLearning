@@ -1,0 +1,318 @@
+/* <!-- 版心宽1164px -->
+<!-- nav区1164*65 --> */
+
+.big_nav{
+    width: 100%;
+    height: 65px;
+    background: #1e1e1e;
+}
+
+.nav{
+    width: 1164px;
+    height: 65px;
+    background: #1e1e1e;
+    margin: 0 auto;
+
+}
+
+.nav1{
+    width: 126px;
+    height: 65px;
+    float: left;
+}
+
+.nav1 img{
+    width: 126px;
+    height: 65px;
+
+}
+
+.nav2{
+    width: 390px;
+    height: 65px;
+    float: left;
+    padding-top: 20px;
+    margin-left: 8px;
+}
+
+.nav2_box{
+    width: 120px;
+    height: 33px;
+    padding-left: 8px;
+    /* background: pink; */
+    border-left: 2px solid #fff;
+}
+
+.nav2_box p{
+    color: #fff;
+    font-size:12px;
+    line-height: 16px;
+}
+
+.nav3{
+    width: 476px;
+    height: 65px;
+    /* background: salmon; */
+    float: left;
+}
+
+.nav3 ul{
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.nav3 ul li a{
+    color:white;
+}
+
+.nav4{
+    width: 164px;
+    height: 65px;
+    float: left;
+}
+
+.nav4_1{
+    width: 128px;
+    height: 65px;
+    padding-top: 17px;
+    /* background: pink; */
+    float: left;
+}
+
+
+.nav4_1_box{
+  
+    width: 128px;
+    height:33px;
+    text-align: right;
+    padding-right: 8px;
+    /* background: pink; */
+    border-right: 2px solid #fff;
+}
+
+.nav4_1_box p{
+    color: #fff;
+    font-size:12px;
+    line-height: 16px;
+
+}
+
+.nav4_2{
+    width: 36px;
+    height: 65px;
+    /* background: skyblue; */
+    text-align: right;
+    float: left;
+    padding-top: 14px;
+}
+
+.nav4_2 img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.nav4_2 p{
+    font-size:12px;
+    color: #fff;
+
+}
+
+/* <!-- banner区534px,图片超出版心 --> */
+.big_banner{
+    width: 100%;
+    height: 534px;
+    background: url(../img/kt-banner-04.jpg) no-repeat center center;
+}
+
+.big_banner img{
+    width: 100%;
+    height: 534px;
+}
+
+/* <!-- 可通用的t区高110px --> */
+
+.big_t{
+    width: 100%;
+    height: 110px;
+}
+
+.t{
+    width: 1164px;
+    height: 110px;
+    margin: 0 auto;
+    background: pink;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.t h2,.big_pics h2{
+    font-size: 26px;
+    line-height: 40px;
+}
+
+.t p,.big_pics p{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.t span,.big_pics span{
+    font-weight:500;
+}
+
+/* <!-- 复杂列表区list高度350 --> */
+.big_list{
+    width: 100%;
+    height: 350px;
+}
+
+.list{
+    width: 1164px;
+    height: 350px;
+    margin: 0 auto;
+    background: skyblue;
+}
+
+.list ul{
+    width: 1164px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.list ul li{
+    width: 160px;
+    height: 350px;
+    padding: 0 10px;
+    padding-top: 37px;
+    background: pink;
+    text-align: center;
+}
+
+.list img{
+    width: 100px;
+    height: 84px;
+}
+
+.list h2{
+    font-size: 20px;
+
+}
+
+.list h5{
+    font-size: 12px;
+    
+}
+
+.list p{
+    font-size: 12px;
+    
+}
+
+/* <!-- 三图其332，取名pics --> */
+div.big_pics{
+    width: 100%;
+    height: 332px;
+
+}
+
+.big_pics ul{
+    width: 1164px;
+    height: 332px;
+    margin: 0 auto;
+    background: pink;
+    display: flex;
+    justify-content: center;
+
+}
+
+.big_pics ul li{
+    width: calc(100%/3);
+    height: 332px;
+    background: skyblue;
+    
+    
+}
+
+
+.big_pics ul li img{
+    width: 388px;
+    height: 218px;
+    transition: 1s;
+ 
+
+}
+
+.big_pics ul li .box{
+    width: 388px;
+    height: 218px;
+    overflow: hidden;
+
+}
+
+.big_pics ul li:hover img{
+    transform: scale(1.5);
+   
+}
+
+.big_sim{
+    width: 100%;
+    height: 100px;
+}
+
+.sim{
+    width: 1164px;
+    height: 100px;
+    background: pink;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sim h5{
+    font-size: 16px;
+    margin-bottom: 12px;
+
+}
+
+.sim span{
+    display: inline-block;
+    width: 36px;
+    height: 2px;
+    background: skyblue;
+  
+}
+
+.big_imp{
+    width: 100%;
+    height: 220px;
+}
+
+.imp{
+    width: 800px;
+    height: 220px;
+    margin: 0 auto;
+}
+
+.imp ul{
+    width: 800px;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.imp ul li{
+    width: 160px;
+    height: 110px;
+    background: url(../img/anli1.png);
+    /* background-size: 160px 110px; */
+    background-position: -25px -160px;
+}
+
+.imp ul li:hover{
+    background-position: -25px -10px;
+    transition: 1s;
+}

@@ -1,0 +1,819 @@
+<!--
+ * @Author: Ray123
+ * @Description: 
+ * @Date: 2023-03-23 18:16:46
+ * @LastEditTime: 2023-03-26 12:12:26
+ * @FilePath: \p1_2\麦田四件套\首页\wheatland.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+            /* scroll-behavior: smooth; */
+        }
+
+       
+        li{
+            list-style: none;
+        }
+       
+        /* navi-1440/103 */
+        .navi{
+            width: 1440px;
+            height: 103px;
+            background: #fefefe;
+           
+        }
+
+        .navi_left{
+            width: 675px;
+            height: 103px;
+            float: left;
+            background: #fefefe;
+        }
+
+        .navi_left_1{
+            width: 287px;
+            height: 83px;
+            padding-left: 150px;
+            padding-top: 20px;
+            float: left;
+            background:url(./images/1231313_03.jpg) #fefefe no-repeat right center;
+        }
+
+        .navi_left_2{
+            width: 218px;
+            height: 78px;
+            float: left;
+            padding-left: 20px;
+            padding-top: 25px;
+        }
+
+        .navi_left_2 p{
+            font-size: 13px;
+            color: #9a9899;
+            line-height: 24px;
+        }
+        .navi_right{
+            width: 765px;
+            height: 70px;
+            background: #fefefe;
+            float: left;
+            padding-top: 31px;
+        }
+
+        .navi_right li{
+            width: 88px;
+            height: 70px;
+            list-style: none;
+            float: left;
+            background: #fefefe;
+            text-align: center;
+            line-height: 70px;
+            border: #fefefe solid 1px;
+            
+        }
+
+        .navi_right li:hover{
+            background: #f75a53;
+            border: #f75a53 1px solid;
+            border-radius: 8px 8px 0 0;
+        }
+        .navi_right li a{
+            display: block;
+            width: 88px;
+            height: 70px;
+            text-decoration: none;
+            font-size: 12px;
+            color: black;
+        }
+
+
+        /* banner-1440/455 */
+        .banner{
+            width: 1440px;
+            height: 455px;
+            background: orange;
+            position: relative;
+            
+            
+        }
+        .banner img{
+            width: 1440px;
+            height: 455px;
+            display: block;
+        }
+
+        .banner_butt ul{
+            width: 71px;
+            height: 14px;
+            background: transparent;
+            position: absolute;
+            left: 50%;
+            margin-left: -31px;
+            bottom: 20px;
+
+        }
+
+        .banner_pics{
+            width: 1440px;
+            height: 455px;
+            overflow: hidden;
+        }
+
+        .banner_butt a{
+            display: block;
+            width: 12px;
+            height: 12px;
+            
+            
+        }
+
+        .banner_butt1,.banner_butt2,.banner_butt3{
+            width: 12px;
+            height: 12px;
+            border: solid 1px black;
+            border-radius: 12px;
+            background: gray;
+            margin-right: 5px;
+            float: left;
+        }
+        .banner_butt4{
+            width: 12px;
+            height: 12px;
+            border: solid 1px black;
+            border-radius: 12px;
+            background: gray;
+            float: left;
+        }
+        /* partner-1440/385 */
+        .partner{
+            width: 1440px;
+            height: 385px;
+            background: #f7f7f7;
+        }
+
+        .partner_top{
+            width: 1440px;
+            height: 120px;
+            background: #f7f7f7;
+            text-align: center;
+            overflow: hidden;
+            /* line-height: 120px; */
+
+        }
+
+        .partner_top h2{
+            font-size: 22px;
+            margin-top: 35px;
+        }
+        .partner_top p{
+            font-size: 12px;
+            line-height: 50px;
+        }
+
+        .partner_bottom{
+            width: 1290px;
+            height: 265px;
+            padding-left: 150px;
+
+        }
+
+        .partner_bottom li{
+            list-style: none;
+            width: 190px;
+            height: 100px;
+            border: 1px #ededed solid;
+            float: left;
+        }
+
+        .partner_bottom li img{
+            width: 190px;
+            height: 100px;
+
+        }
+        /* our-1440/540 */
+        .our{
+            width: 1440px;
+            height: 540px;
+            background: #1a1b1f;
+        }
+
+        .our1{
+            width: 1440px;
+            height: 150px;
+            background: #1a1b1f;
+            float: left;
+            text-align: center;
+        }
+        .our1 h2{
+            font-size: 22px;
+            margin-top: 35px;
+            color: white;
+        }
+        .our1 p{
+            font-size: 12px;
+            line-height: 50px;
+            color: white;
+        }
+        .our2{
+            width: 1440px;
+            height: 260px;
+            padding-top: 66px;
+            background: #1a1b1f;
+            float: left;
+            position: relative;
+        }
+
+        .our2 .pics1{
+            position: absolute;
+            left: 250px;
+            top: 0px;
+        }
+        .our2 .pics2{
+            position: absolute;
+            left: 650px;
+            top: 0px;
+        }
+        .our2 .pics3{
+            position: absolute;
+            left: 1040px;
+            top: 0px;
+        }
+        .our2 li{
+            width: 300px;
+            height: 185px;
+            background: #d1d1d3;
+            float: left;
+            margin-left: 55px;
+            padding-left: 40px;
+            padding-top: 75px;
+        }
+
+        .our2 p{
+            width: 257px;
+            font-size: 12px;
+            line-height: 30px;
+        }
+
+        .our2 h2{
+            font-size: 22px;
+            line-height: 60px;
+        }
+
+        .our2 li:first-child{
+            margin-left: 151px;
+        }
+        
+
+        /* case-810 */
+        .case{
+            width: 1440px;
+            height: 810px;
+            background: salmon;
+           
+        }
+
+
+
+
+        .case_top{
+            width: 1440px;
+            height: 92px;
+            background: white;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .case_top h2{
+            font-size: 24px;
+
+        }
+        .case_top p{
+            font-size: 12px;
+            line-height: 50px;
+            color: #989ba4;
+            
+        }
+        .case_bottom{
+            width: 1440px;
+            height: 668px;
+            background: white;
+            overflow: hidden;
+            
+
+            
+        }
+
+        .case_bottom_jiantou{
+            /* width: 10px; */
+            /* height: 10px; */
+            width: 0;
+            border-top: 10px solid #f75a53;
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-left: 10px solid transparent;
+            opacity: 0;
+
+
+        }
+
+        .case_bottom > ul{
+            width: 800px;
+            height: 50px;
+            margin: 0 auto;
+        }
+
+        .case_bottom >ul >li{
+            width: 200px;
+            height: 50px;
+            list-style: none;
+            background: white;
+            font-size: 12px;
+            color: white;
+            float: left;
+
+        }
+        .case_bottom li:hover .case_bottom_jiantou{
+            opacity: 1;
+        }
+
+        .case_bottom li:hover .case_bottom_1{
+            background: #f75a53;
+
+        }
+
+        .case_bottom a{
+            display: block;
+            width: 200px;
+            height: 40px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .case_bottom_1{
+            width: 200px;
+            height: 40px;
+            background: #666666;
+            text-align: center;
+            line-height: 40px;
+        }
+        .case_bottom_2{
+            width: 106px;
+            height: 10px;
+            padding-left: 94px;
+        }
+
+        .case_bottom_img{
+            width: 1140px;
+            height: 540px;
+            background: white;
+            margin: 0 auto;
+            margin-top: 15px; 
+            overflow: hidden;  
+        }
+
+        .case_bottom_img img{
+            width: 360px;
+            height: 256px;
+            
+
+        }
+        .case_bottom_img .a1{margin-right: 30px;}
+        .case_bottom_img .a2{margin-right: 30px;}
+        /* .case_bottom_img .a3{} */
+        .case_bottom_img .a4{margin-right: 30px;margin-top: 28px;}
+        .case_bottom_img .a5{margin-top: 28px;margin-right: 30px;}
+        .case_bottom_img .a6{margin-top: 28px;}
+
+        .case_bottom_img li{
+            list-style: none;
+            width: 360px;
+            height: 256px;
+            background: gray;
+            float: left;
+        }
+
+        .case_bottom_img ul{
+            width: 1140px;
+            height: 540px;
+
+        }
+        /* news-350 */
+        .news{
+            width: 1290px;
+            height: 316px;
+            background: #f2f2f2;
+            padding-left: 150px;
+            padding-top: 34px;
+        }
+
+        .news dt{
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        .news dd{
+            font-size: 12px;
+            line-height: 30px;
+        }
+
+        .news .span1{
+            float: left;
+        }
+
+        .news .span2{
+            float: right;
+            margin-right: 60px;
+        }
+
+        .news1{
+            width: 400px;
+            height: 270px;
+            background: #f2f2f2;
+            float: left;
+        }
+        .news1_1{
+            width: 400px;
+            height: 240px;
+            background: #f2f2f2;
+        }
+        .news1_2{
+            width: 400px;
+            height: 30px;
+            background: #f2f2f2;
+        }
+        .news_butt{
+            width: 118px;
+            height: 30px;
+            background: red;
+            font-size: 12px;
+            text-align: center;
+            line-height: 30px;
+            border: red 3px;
+            border-radius: 3px 3px 3px 3px;
+        }
+        .news_butt a{
+            text-decoration: none;
+            color: white;
+            
+        }
+
+
+
+    
+        .news2{
+            width: 400px;
+            height: 270px;
+            background: #f2f2f2;
+            float: left;
+        }
+        .news3{
+            width: 400px;
+            height: 270px;
+            background: #f2f2f2;
+            float: left;
+        }
+        /* footer-140 */
+        .footer{
+            width: 1440px;
+            height: 140px;
+            background: #363636;
+            text-align: center;
+            font-size: 12px;
+            overflow: hidden;
+        }
+        .footer ul{
+            width: 480px;
+            height: 16px;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+
+        .footer li{
+            width: 59px;
+            height: 16px;
+            border-right: 1px black solid;
+            float: left;
+        }
+        .footer li a{
+            text-decoration: none;
+            color: #6e6e6e;
+        }
+
+        .footer p{
+            font-size: 12px;
+            line-height: 30px;
+            color: #6e6e6e;
+        }
+    </style>
+</head>
+<body>
+    <!-- /* navi-1440/103 */ -->
+    <div class="navi">
+        <div class="navi_left">
+            <div class="navi_left_1">
+                <img src="./images/首页_0222113_03.jpg" alt="">
+            </div>
+            <div class="navi_left_2">
+                <p>奉行卓越品质</p>
+                <p>则可拥抱世界</p>
+            </div>
+
+        </div>
+        <div class="navi_right">
+            <ul>
+                <li><a href="../首页/wheatland.html">首页</a></li>
+                <li><a href="../关于我们/关于我们.html">关于我们</a></li>
+                <li><a href="../尊享服务/尊享服务.html">尊享服务</a></li>
+                <li><a href="../成功案例/成功案例.html">成功案例</a></li>
+                
+                <li><a href="#">来去之间</a></li>
+                <li><a href="#">流向是覅</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <!-- /* banner-1440/455 */ -->
+    <div class="banner">
+        <div class="banner_butt">
+            <ul>
+                <li class="banner_butt1"><a href="#a1"></a></li>
+                <li class="banner_butt2"><a href="#a2"></a></li>
+                <li class="banner_butt3"><a href="#a3"></a></li>
+                <li class="banner_butt4"><a href="#a4"></a></li>
+            </ul>
+            
+        </div>
+        <div class="banner_pics">
+            <img id="a1" src="../img/轮播1.png" alt="">
+            <img id="a2" src="../img/轮播2.png" alt="">
+            <img id="a3" src="../img/轮播3.png" alt="">
+            <img id="a4" src="../img/轮播4.png" alt="">
+        </div>
+        
+        
+    </div>
+
+    <!-- /* partner-1440/385 */ -->
+    <div class="partner">
+        <div class="partner_top">
+            <h2>战略合作 Strategic partner</h2>
+            <p>真诚，共赢，无微不至</p>
+        </div>
+        <div class="partner_bottom">
+            <ul>
+                <li><a href="#"><img src="./images/首页_03.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./images/首页_0222113_07.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./images/首页_03.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./images/首页_0222113_07.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./images/首页_03.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./images/首页_0222113_07.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./images/首页_03.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./images/首页_0222113_07.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./images/首页_03.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./images/首页_0222113_07.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./images/首页_03.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./images/首页_0222113_07.jpg" alt=""></a></li>
+            </ul>
+            
+        </div>
+
+    </div>
+    
+    
+    <!-- /* our-1440/540 */ -->
+    <div class="our">
+        <div class="our1">
+            <h2>我们的优势 Our Advantages</h2>
+            <p>杜柴发很干净火锅店恭候多个活动观后感发大水时</p>
+        </div>
+        <div class="our2">
+            <dl>
+                <li>
+                    <h2>我们的设计 our design</h2>
+                    <p>好的哈哦啊说哈反杀粉丝偶函数法华寺佛大大佛号反搜案发后暗黑风搜房沙发宏奥回费</p>
+                </li>
+                <li>
+                    <h2>我们的设计 our design</h2>
+                    <p>好的哈哦啊说哈反杀粉丝偶函数法华寺佛大大佛号反搜案发后暗黑风搜房沙发宏奥回费</p>
+                </li>
+                <li>
+                    <h2>我们的设计 our design</h2>
+                    <p>好的哈哦啊说哈反杀粉丝偶函数法华寺佛大大佛号反搜案发后暗黑风搜房沙发宏奥回费</p>
+                </li>
+            </dl>
+            <div class="pics1">
+                <img src="./images/透明_01.png" alt="">
+            </div>
+            <div class="pics2">
+                <img src="./images/透明_03.png" alt="">
+            </div>
+            <div class="pics3">
+                <img src="./images/透明_05.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    
+    
+    <!-- /* case-810 */ -->
+    <div class="case">
+        <div class="case_top">
+            <h2>成功案例 successful case</h2>
+            <p>始终一方海峰发挥很发覅阿还会发是打发发发,发哈符号事发后四佛奥会返还玩法还</p>
+
+        </div>
+        <div class="case_bottom">
+            <ul>
+                <li>
+                    <div class="case_bottom_1">
+                        <a href="#case_bottom_img_1">吃饭行业</a>
+                    </div>
+                    <div class="case_bottom_2">
+                        <div class="case_bottom_jiantou">
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="case_bottom_1">
+                        <a href="#case_bottom_img_2">喝水行业</a>
+                    </div>
+                    <div class="case_bottom_2">
+                        <div class="case_bottom_jiantou">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="case_bottom_1">
+                        <a href="#case_bottom_img_3">什么行业</a>
+                    </div>
+                    <div class="case_bottom_2">
+                        <div class="case_bottom_jiantou">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="case_bottom_1">
+                        <a href="#case_bottom_img_4">什么行业</a>
+                    </div>
+                    <div class="case_bottom_2">
+                        <div class="case_bottom_jiantou">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="case_bottom_img">
+                <ul id="case_bottom_img_1">
+                    <li class="a1"><a href="#"><img src="./images/afssfaf_03.jpg" alt=""></a></li>
+                    <li class="a2"><a href="#"><img src="./images/afssfaf_03.jpg" alt=""></a></li>
+                    <li class="a3"><a href="#"><img src="./images/afssfaf_03.jpg" alt=""></a></li>
+                    <li class="a4"><a href="#"><img src="./images/afssfaf_03.jpg" alt=""></a></li>
+                    <li class="a5"><a href="#"><img src="./images/afssfaf_03.jpg" alt=""></a></li>
+                    <li class="a6"><a href="#"><img src="./images/afssfaf_03.jpg" alt=""></a></li>
+                </ul>
+                <ul id="case_bottom_img_2">
+                    <li class="a1"><a href="#"><img src="./images/afssfaf_05.jpg" alt=""></a></li>
+                    <li class="a2"><a href="#"><img src="./images/afssfaf_05.jpg" alt=""></a></li>
+                    <li class="a3"><a href="#"><img src="./images/afssfaf_05.jpg" alt=""></a></li>
+                    <li class="a4"><a href="#"><img src="./images/afssfaf_05.jpg" alt=""></a></li>
+                    <li class="a5"><a href="#"><img src="./images/afssfaf_05.jpg" alt=""></a></li>
+                    <li class="a6"><a href="#"><img src="./images/afssfaf_05.jpg" alt=""></a></li>
+                </ul>
+                <ul id="case_bottom_img_3">
+                    <li class="a1"><a href="#"><img src="./images/afssfaf_07.jpg" alt=""></a></li>
+                    <li class="a2"><a href="#"><img src="./images/afssfaf_07.jpg" alt=""></a></li>
+                    <li class="a3"><a href="#"><img src="./images/afssfaf_07.jpg" alt=""></a></li>
+                    <li class="a4"><a href="#"><img src="./images/afssfaf_07.jpg" alt=""></a></li>
+                    <li class="a5"><a href="#"><img src="./images/afssfaf_07.jpg" alt=""></a></li>
+                    <li class="a6"><a href="#"><img src="./images/afssfaf_07.jpg" alt=""></a></li>
+                </ul>
+                <ul id="case_bottom_img_4">
+                    <li class="a1"><a href="#"><img src="./images/afssfaf_12.jpg" alt=""></a></li>
+                    <li class="a2"><a href="#"><img src="./images/afssfaf_12.jpg" alt=""></a></li>
+                    <li class="a3"><a href="#"><img src="./images/afssfaf_12.jpg" alt=""></a></li>
+                    <li class="a4"><a href="#"><img src="./images/afssfaf_12.jpg" alt=""></a></li>
+                    <li class="a5"><a href="#"><img src="./images/afssfaf_12.jpg" alt=""></a></li>
+                    <li class="a6"><a href="#"><img src="./images/afssfaf_12.jpg" alt=""></a></li>
+                </ul>
+                
+            </div>
+
+        </div>
+
+    </div>
+    
+    
+    <!-- /* news-350 */ -->
+    <div class="news">
+
+        <div class="news1">
+            <div class="news1_1">
+                <dl>
+                    <dt>公司新闻 Company News</dt>
+                    <dd><a href="#"><span class="span1">一卡发顺丰合法设计符合释放方式发哈</span><span class="span2">2011-09-21</span></a></dd>
+                    <dd><a href="#"><span class="span1">一卡发顺丰合法设计符合释放方式发哈</span><span class="span2">2011-09-21</span></a></dd>
+                    <dd><a href="#"><span class="span1">一卡发顺丰合法设计符合释放方式发哈</span><span class="span2">2011-09-21</span></a></dd>
+                    <dd><a href="#"><span class="span1">一卡发顺丰合法设计符合释放方式发哈</span><span class="span2">2011-09-21</span></a></dd>
+                    <dd><a href="#"><span class="span1">一卡发顺丰合法设计符合释放方式发哈</span><span class="span2">2011-09-21</span></a></dd>
+                    <dd><a href="#"><span class="span1">一卡发顺丰合法设计符合释放方式发哈</span><span class="span2">2011-09-21</span></a></dd>
+                </dl>
+                
+
+            </div>
+
+            <div class="news1_2">
+                <div class="news_butt">
+                    <p><a href="#">MORE INFO ——></a></p>
+
+                </div>
+
+            </div>
+            
+        </div>
+        <div class="news2">
+            <div class="news1_1">
+                <dl>
+                    <dt>公司新闻 Company News</dt>
+                    <dd><a href="#"><span class="span1">一卡发顺丰合法设计符合释放方式发哈</span><span class="span2">2011-09-21</span></a></dd>
+                    <dd><a href="#"><span class="span1">一卡发顺丰合法设计符合释放方式发哈</span><span class="span2">2011-09-21</span></a></dd>
+                    <dd><a href="#"><span class="span1">一卡发顺丰合法设计符合释放方式发哈</span><span class="span2">2011-09-21</span></a></dd>
+                    <dd><a href="#"><span class="span1">一卡发顺丰合法设计符合释放方式发哈</span><span class="span2">2011-09-21</span></a></dd>
+                    <dd><a href="#"><span class="span1">一卡发顺丰合法设计符合释放方式发哈</span><span class="span2">2011-09-21</span></a></dd>
+                    <dd><a href="#"><span class="span1">一卡发顺丰合法设计符合释放方式发哈</span><span class="span2">2011-09-21</span></a></dd>
+                </dl>
+                
+
+            </div>
+
+            <div class="news1_2">
+                <div class="news_butt">
+                    <p><a href="#">MORE INFO ——></a></p>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="news3">
+            <div class="news1_1">
+                <dl>
+                    <dt>公司新闻 Company News</dt>
+                    <dd><a href="#"><span class="span1">一卡发顺丰合法设计符合释放方式发哈</span><span class="span2">2011-09-21</span></a></dd>
+                    <dd><a href="#"><span class="span1">一卡发顺丰合法设计符合释放方式发哈</span><span class="span2">2011-09-21</span></a></dd>
+                    <dd><a href="#"><span class="span1">一卡发顺丰合法设计符合释放方式发哈</span><span class="span2">2011-09-21</span></a></dd>
+                    <dd><a href="#"><span class="span1">一卡发顺丰合法设计符合释放方式发哈</span><span class="span2">2011-09-21</span></a></dd>
+                    <dd><a href="#"><span class="span1">一卡发顺丰合法设计符合释放方式发哈</span><span class="span2">2011-09-21</span></a></dd>
+                    <dd><a href="#"><span class="span1">一卡发顺丰合法设计符合释放方式发哈</span><span class="span2">2011-09-21</span></a></dd>
+                </dl>
+                
+
+            </div>
+
+            <div class="news1_2">
+                <div class="news_butt">
+                    <p><a href="#">MORE INFO ——></a></p>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    
+    
+    <!-- /* footer-140 */ -->
+    <div class="footer">
+        <ul>
+            <li><a href="#">网站首页</a></li>
+            <li><a href="#">关于我们<a></li>
+            <li><a href="#">产品展示</a></li>
+            <li><a href="#">罗里吧嗦</a></li>
+            <li><a href="#">死死死是</a></li>
+            <li><a href="#">少时诵诗</a></li>
+            <li><a href="#">顶顶顶顶</a></li>
+            <li><a href="#">呜呜呜呜</a></li>
+        </ul>
+
+        
+        
+        <p>版权信息©版权信息版权信息版权信息版权信息版权信息版权信息版权信息版权信息</p>
+        <p>联系电话：132142424 电话是否好舒服哈斯发哈合法化发挥发哦或发</p>
+
+    </div>
+    
+</body>
+</html>

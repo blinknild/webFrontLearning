@@ -1,0 +1,94 @@
+<!--
+ * @Author: Ray123
+ * @Description: 
+ * @Date: 2023-04-03 11:52:36
+ * @LastEditTime: 2023-04-03 13:59:40
+ * @FilePath: \day22\01flexContainer.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width: 500px;
+            height: 500px;
+            background: pink;
+            margin: 200px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .ul1{
+            width: 500px;
+            height: 100px;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            background: grey;
+        }
+
+        .ul2{
+            width: 500px;
+            height: 100px;
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            background: grey;
+        }
+
+        .ul3{
+            width: 500px;
+            height: 100px;
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            background: grey;
+        }
+
+        li{
+            width: 100px;
+            height: 100px;
+            background: greenyellow;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <div class="box">
+
+        <ul class="ul1">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <ul class="ul2">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <ul class="ul3">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        
+
+    </div>
+    
+</body>
+</html>

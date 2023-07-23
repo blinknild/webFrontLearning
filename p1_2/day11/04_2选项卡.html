@@ -1,0 +1,120 @@
+<!--
+ * @Author: Ray123
+ * @Description: 
+ * @Date: 2023-03-23 15:55:10
+ * @LastEditTime: 2023-03-23 16:52:55
+ * @FilePath: \p1_2\day11\04_2选项卡.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        li{
+            list-style: none;
+            width: 100px;
+            height: 60px;
+            border-right: 1px dashed black;
+            float: left;
+            text-align: center;
+            line-height: 60px;
+        }
+        a{
+            display: block;
+            width: 100px;
+            height: 60px;
+        }
+        .box{
+            width: 404px;
+            height: 60px;
+            background: salmon;
+        }
+
+        .box1:hover .pics1{
+            display: block;
+
+        }
+        .box2:hover .pics2{
+            display: block;
+
+        }
+        .box3:hover .pics3{
+            display: block;
+
+        }
+        .box4:hover .pics4{
+            display: block;
+
+        }
+        .pics1{
+            width: 404px;
+            height: 300px;
+            position: relative;
+            display: none;
+
+        }
+        .pics2{
+            width: 404px;
+            height: 300px;
+            position: absolute;
+            left: 0;
+            top: 60px;
+            display: none;
+        }
+        .pics3{
+            width: 404px;
+            height: 300px;
+            position: absolute;
+            left: 0;
+            top: 60px;
+            display: none;
+        }
+        .pics4{
+            width: 404px;
+            height: 300px;
+            position: absolute;
+            left: 0;
+            top: 60px;
+            display: none;
+        }
+        img{
+            display: block;
+            width: 404px;
+            height: 300px;
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul>
+            <li class="box1">1</li>
+            <li class="box2">2</li>
+            <li class="box3">3</li>
+            <li class="box4">4</li>
+        </ul>
+    </div>
+    <div class="pics1">
+        <img src="./img/img04.jpg" alt="" id="1">    
+    </div>
+    <div class="pics2">
+        <img src="./img/img05.jpg" alt="" id="2">
+    </div>
+    <div class="pics3">
+        <img src="./img/img06.jpg" alt="" id="3">
+    </div>
+    <div class="pics4">
+        <img src="./img/img07.jpg" alt="" id="4">
+    </div>
+    
+</body>
+</html>

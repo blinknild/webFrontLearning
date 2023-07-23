@@ -1,0 +1,108 @@
+<!--
+ * @Author: Ray123
+ * @Description: 
+ * @Date: 2023-03-27 09:41:31
+ * @LastEditTime: 2023-03-27 10:33:02
+ * @FilePath: \day15\01二级三级导航.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        .nav1{
+            width: 1000px;
+            height: 50px;
+            background: pink;
+        }
+
+        .nav1  li{
+            width: 200px;
+            height: 50px;
+            float: left;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        .nav1 li:hover .nav2{
+            display: block;
+        }
+
+        .nav2{
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+
+        .nav2 > div{
+            background: salmon;
+            position: relative;
+
+        }
+
+        .nav1 a{
+            width: 200px;
+            height: 50px;
+            display: block;
+        }
+
+        .nav2 > div > a:hover{
+            background-color: greenyellow;
+        }
+
+        .nav2 > div:hover .nav3{
+            display: block;
+        }
+        .nav3{
+            width: 200px;
+            height: 200px;
+            background: grey;
+            position: absolute;
+            left: 200px;
+            top: 0;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav1">
+        <ul>
+            <li>
+                <a href="#">首页</a>
+                <div class="nav2">
+                    <div>
+                        <a href="#">1号</a>
+                        <div class="nav3">
+                            3级导航
+                        </div>
+                    </div>
+                    <div><a href="#">2号</a></div>
+                    <div><a href="#">3号</a></div>
+                    <div><a href="#">4号</a></div>
+                </div>
+            </li>
+            <li><a href="#">鞋子</a></li>
+            <li><a href="#">衣服</a></li>
+            <li><a href="#">同福</a></li>
+            <li><a href="#">的的</a></li>
+        </ul>
+
+    </div>
+    文字挡住了啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
+</body>
+</html>

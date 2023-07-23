@@ -1,0 +1,112 @@
+<!--
+ * @Author: Ray123
+ * @Description: 
+ * @Date: 2023-03-31 10:00:22
+ * @LastEditTime: 2023-03-31 10:22:54
+ * @FilePath: \day19\01定位动画.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pc_common.css">
+    <style>
+        .box{
+            width: 377px;
+            height: 280px;
+            background: salmon;
+            margin: 200px auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .box .transp{
+            width: 377px;
+            height: 280px;
+            background: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            transition: 0.6s linear;
+
+        }
+
+        .box:hover .transp{
+            opacity: 1;
+        }
+
+        .box h2{
+            width: 120px;
+            height: 30px;
+            line-height: 30px;
+            position: absolute;
+            left: 50%;
+            margin-left: -60px;
+            top: -30px;
+            transition: 0.6s linear;
+
+        }
+
+        .box:hover h2{
+            top: 30px;
+
+        }
+
+        .box .img1{
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            left: -80px;
+            top: 70px;
+            transition: 0.6s linear;
+
+        }
+
+        .box:hover .img1{
+            left: 50%;
+            margin-left: -40px;
+
+        }
+
+        .box .img2{
+            width: 38px;
+            height: 38px;
+            position: absolute;
+            right: -38px;
+            top: 91px;
+            transition: 0.6s linear;
+
+        }
+
+        .box:hover .img2{
+            right: 50%;
+            margin-right: -19px;
+
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="box">
+        <div class="box_pic">
+            <img src="./images/box_img2.png" alt="">
+        </div>
+
+        <div class="transp">
+            
+        </div>
+
+        <h2>专注前端教育</h2>
+
+        <img src="./images/l_o.png" alt="" class="img1">
+        <img src="./images/r_f.png" alt="" class="img2">
+
+    </div>
+</body>
+</html>

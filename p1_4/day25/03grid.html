@@ -1,0 +1,87 @@
+<!--
+ * @Author: Ray123
+ * @Description: 
+ * @Date: 2023-04-06 14:42:24
+ * @LastEditTime: 2023-04-06 15:16:24
+ * @FilePath: \day25\03grid.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 400px;
+            height: 300px;
+            display: grid;
+            grid-template-rows: repeat(3,1fr);
+            grid-template-columns: repeat(4,1fr);
+            grid-template-areas: 
+            "a b c c"
+            "d e c c"
+            "f f g h"
+            ;
+            grid-gap:5px 5px;
+        }
+
+        /* .box div{
+            width: 100px;
+            height: 100px;
+        } */
+        .box div:nth-child(1){
+            background: pink;
+            grid-area: a;
+        }
+        .box div:nth-child(2){
+            background: skyblue;
+            grid-area: b;
+        }
+        .box div:nth-child(3){
+            background: purple;
+            grid-area: c;
+        }
+        .box div:nth-child(4){
+            background: orange;
+            grid-area: d;
+        }
+        .box div:nth-child(5){
+            background: blue;
+            grid-area: e;
+        }
+        .box div:nth-child(6){
+            background: salmon;
+            grid-area: f;
+        }
+        .box div:nth-child(7){
+            background: aqua;
+            grid-area: g;
+        }
+        .box div:nth-child(8){
+            background: hotpink;
+            grid-area: h;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+</body>
+</html>

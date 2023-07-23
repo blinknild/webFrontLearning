@@ -1,0 +1,346 @@
+<!--
+ * @Author: Ray123
+ * @Description: 
+ * @Date: 2023-03-22 17:51:41
+ * @LastEditTime: 2023-03-22 19:49:24
+ * @FilePath: \p1_2\day10\作业.html
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+            font-size: 16px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .jd{
+            width: 1210px;
+            height: 474px;
+            background: salmon;
+        }
+
+
+        /* <!-- 左边的导航区 --> */
+
+        .jd_nav{
+            width: 210px;
+            height: 474px;
+            background: skyblue;
+            float: left;
+
+        }
+
+        .jd_nav_1{
+            width: 210px;
+            height: 329px;
+            background: aqua;
+            float: left;
+            position: relative;
+
+        }
+        .jd_nav_1 img{
+            width: 210px;
+            height: 329px;
+        }
+        .jd_nav_1 .jd_nav_1_1{
+            width: 210px;
+            height: 92px;
+            background-color: rgba(255, 255, 255, 0.5);
+            position:absolute;
+            left: 0;
+            bottom: 0;
+            opacity: 0;
+        }
+
+        .jd_nav_1:hover .jd_nav_1_1{
+            opacity: 1;
+            transition: 1.5s;
+        }
+
+        .jd_nav_1_2{
+            width: 95px;
+            height: 46px;
+            padding-left: 10px;
+            float: left;
+            position: relative;
+        
+            
+           
+        }
+
+        .jd_nav_1_2 span{
+            font-size: 12px;
+            position: absolute;
+            left: 41px;
+            top: 16px;
+        }
+
+        .jd_nav_1_2 img{
+            width: 26px;
+            height: 26px;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            
+        }
+
+
+
+
+
+        .jd_nav_2{
+            width: 188px;
+            height: 120px;
+            background:#eefaf9;
+            float: left;
+            padding-left: 22px;
+            padding-top: 25px;
+        }
+
+        .jd_nav_2 p{
+            font-size: 12px;
+            line-height: 24px;
+            color: #6d95c4;
+        }
+        .jd_nav_2 li{
+            list-style: none;
+            padding-right: 10px;
+            float: left;
+        }
+
+        .jd_nav_2 li a{
+            font-size: 12px;
+            color: #989d9e;
+        }
+
+
+        /* <!-- 右边的商品区 --> */
+        .jd_goods{
+            width: 1000px;
+            height: 474px;
+            background: white;
+            float: left;
+        }
+
+        .jd_goods li{
+            list-style: none;
+            width: 199px;
+            height: 236px;
+            border-right: #ededed 1px solid;
+            border-bottom: #ededed 1px solid;
+            float: left;
+            
+
+        }
+
+        .jd_goods li .jd_goods_img{
+            width: 199px;
+            height: 165px;
+            border-bottom: 1px solid #f8f8f8;
+            text-align: center;
+            line-height:165px;
+
+        }
+
+        .jd_goods li div img{
+            vertical-align: middle;
+        }
+
+        .jd_goods li .jd_goods_price{
+            width: 182px;
+            height: 60px;
+            background: white;
+            padding-left: 17px;
+            padding-top: 10px;
+            
+
+        }
+
+        .jd_goods_price h5{
+            font-size: 12px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            color: #5f5f5f;
+
+        }
+        .jd_goods_price p{
+            font-size: 12px;
+            font-weight: 500;
+            color: #dd3a3e;
+            
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="jd">
+        <!-- 左边的导航区 -->
+        <div class="jd_nav">
+            <div class="jd_nav_1">
+                <img src="./images/特卖会.png" alt="">
+                <div class="jd_nav_1_1">
+                    <div class="jd_nav_1_2">
+                        <img src="./images/图标1.png" alt="">
+                        <span>运动鞋服</span>
+                    </div>
+                    <div class="jd_nav_1_2">
+                        <img src="./images/图标1.png" alt="">
+                        <span>运动鞋服</span>
+                    </div>
+                    <div class="jd_nav_1_2">
+                        <img src="./images/图标1.png" alt="">
+                        <span>运动鞋服</span>
+                    </div>
+                    <div class="jd_nav_1_2">
+                        <img src="./images/图标1.png" alt="">
+                        <span>运动鞋服</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            <div class="jd_nav_2">
+                <a href=""><p>小身材 大器材></p></a>
+                <a href=""><p>坛洛这蟹姬清场></p></a>
+                <ul>
+                    <li><a href="#" style="color:#c8152e">户外馆</a></li>
+                    <li><a href="#">折叠车</a></li>
+                    <li><a href="#">跑步鞋</a></li>
+                    <li><a href="#">智能穿戴</a></li>
+                    <li><a href="#">羽毛球拍</a></li>
+                    <li><a href="#" style="color:#c8152e">篮球馆</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- 右边的商品区 -->
+        <div class="jd_goods">
+            <ul>
+                <li>
+                    <div class="jd_goods_img">
+                        <img src="./images/跑步机_03.jpg" alt="">
+                    </div>
+                    <div class="jd_goods_price">
+                        <h5>乔杉家用跑步机</h5>
+                        <p>￥8499.00</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="jd_goods_img">
+                        <img src="./images/跑步机_03.jpg" alt="">
+                    </div>
+                    <div class="jd_goods_price">
+                        <h5>乔杉家用跑步机</h5>
+                        <p>￥8499.00</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="jd_goods_img">
+                        <img src="./images/跑步机_03.jpg" alt="">
+                    </div>
+                    <div class="jd_goods_price">
+                        <h5>乔杉家用跑步机</h5>
+                        <p>￥8499.00</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="jd_goods_img">
+                        <img src="./images/跑步机_03.jpg" alt="">
+                    </div>
+                    <div class="jd_goods_price">
+                        <h5>乔杉家用跑步机</h5>
+                        <p>￥8499.00</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="jd_goods_img">
+                        <img src="./images/跑步机_03.jpg" alt="">
+                    </div>
+                    <div class="jd_goods_price">
+                        <h5>乔杉家用跑步机</h5>
+                        <p>￥8499.00</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="jd_goods_img">
+                        <img src="./images/跑步机_03.jpg" alt="">
+                    </div>
+                    <div class="jd_goods_price">
+                        <h5>乔杉家用跑步机</h5>
+                        <p>￥8499.00</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="jd_goods_img">
+                        <img src="./images/跑步机_03.jpg" alt="">
+                    </div>
+                    <div class="jd_goods_price">
+                        <h5>乔杉家用跑步机</h5>
+                        <p>￥8499.00</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="jd_goods_img">
+                        <img src="./images/跑步机_03.jpg" alt="">
+                    </div>
+                    <div class="jd_goods_price">
+                        <h5>乔杉家用跑步机</h5>
+                        <p>￥8499.00</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="jd_goods_img">
+                        <img src="./images/跑步机_03.jpg" alt="">
+                    </div>
+                    <div class="jd_goods_price">
+                        <h5>乔杉家用跑步机</h5>
+                        <p>￥8499.00</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="jd_goods_img">
+                        <img src="./images/跑步机_03.jpg" alt="">
+                    </div>
+                    <div class="jd_goods_price">
+                        <h5>乔杉家用跑步机</h5>
+                        <p>￥8499.00</p>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+</body>
+</html>

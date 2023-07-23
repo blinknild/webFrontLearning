@@ -1,0 +1,260 @@
+<!--
+ * @Author: Ray123
+ * @Description: 
+ * @Date: 2023-03-28 14:11:43
+ * @LastEditTime: 2023-03-28 15:33:43
+ * @FilePath: \p1_3\day16\demo.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background: lightgrey;
+        }
+
+        p{
+            font-size: 12px;
+        }
+        span{
+            /* font-size: 12px; */
+            color: white;
+        }
+        .big_header,.big_footer{
+            width: 100%;
+            height: 70px;
+            background: lightgray;
+        }
+
+        header,footer{
+            width: 900px;
+            height: 70px;
+            background: #f67c33;
+            margin: 0 auto;
+            text-align: center;
+            line-height: 70px;
+            font-size: 45px;
+            color: white;
+        }
+
+        .big_content{
+            width: 100%;
+            height: 440px;
+            background: lightgray;
+
+        }
+
+        .content{
+            width: 900px;
+            height: 440px;
+            background: grey;
+            margin: 0 auto;
+        }
+
+        nav{
+            width: 188px;
+            height: 360px;
+            background: grey;
+            float: left;
+        }
+
+        nav h5{
+            text-align: center;
+            color: white;
+        }
+
+        nav a{
+            margin: 0 10px;
+            text-decoration: none;
+            color: #f67c33;
+            font-size: 12px;
+        }
+
+        hr{
+            height: 1px;
+            width: 90%;
+            background: white;
+            margin: 0 10px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            
+        }
+
+        .a{
+            overflow: hidden;
+            float: left;
+        }
+
+
+        .a1{
+            padding: 0 10px;
+            padding-top: 10px;
+            width: 432px;
+            height: 210px;
+            background: white;
+            
+            margin-top: 10px;
+            
+            
+        }
+
+        .a2{
+            padding: 0 10px;
+            padding-top: 10px;
+            width: 432px;
+            height: 157px;
+            background: white;
+            margin-top: 10px;
+            overflow: hidden;
+
+        }
+
+
+
+    
+
+        .ah1{
+
+            width: 431px;
+            height: 31px;
+            font-size: 18px;
+            color:white;
+            line-height: 31px;
+            margin-bottom: 16px;
+
+        }
+
+        .af1{
+            background: #f67c33;
+
+            width: 431px;
+            height: 31px;
+            font-size: 18px;
+            color:white;
+            line-height: 31px;
+            margin-bottom: 16px;
+            text-align: center;
+            margin-top: 15px;
+            
+
+        }
+
+        aside{
+            margin-top: 10px;
+            padding: 0 20px;
+            width: 220px;
+            height: 425px;
+            background: grey;
+            float: left;
+            padding-top: 5px;
+
+        }
+
+        aside p{
+            font-size: 18px;
+            color: white;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        mark{
+            font-size: 12px;
+            color:black;
+        }
+
+        aside span{
+            display: inline-block;
+            line-height: 20px;
+            font-size: 12px;
+
+            font-weight: 600;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="big_header">
+        <header>
+            <span>header</span>
+        </header>
+    </div>
+
+
+    <div class="big_content">
+        <div class="content">
+            <nav>
+                <h5>nav</h5>
+                <a href="#">link1</a>
+                <hr>
+                <a href="#">link1</a>
+                <hr>
+                <a href="#">link1</a>
+                <hr>
+        
+            </nav>
+        
+        
+        
+            <article class="a">
+                <article class="a1">
+                    <header class="ah1">
+                        <span>Article Header</span>
+                    </header>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non similique architecto labore voluptate aliquid suscipit dolor, minus maxime, molestias quasi enim ipsam eveniet accusamus distinctio temporibus quam blanditiis repellendus minima!</p>
+
+                    <footer class="af1">
+                        <span>Article Header</span>
+
+                    </footer>
+        
+                </article>
+                <article class="a2">
+                    <header class="ah1">
+                        <span>Article Header</span>
+                    </header>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non similique architecto labore voluptate aliquid suscipit dolor, minus maxime, molestias quasi enim ipsam am blanditiis repellendus minima!</p>
+
+                    <footer class="af1">
+                        <span>Article Header</span>
+
+                    </footer>
+                    
+                </article>
+            </article>
+
+            <aside>
+                <p>aside</p>
+                <span> <mark>HTML5</mark>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex accusantium perferendis iste nesciunt repudiandae unde voluptas hic saepe recusandae placeat iure quas nemo, molestias a enim ducimus temporibus deleniti ipsum.</span>
+
+            </aside>
+
+        </div>
+
+        
+    
+
+    </div>
+
+    <div class="big_footer">
+        <footer>
+            <span>Footer</span>
+            
+        </footer>
+    </div>
+    
+
+</body>
+</html>
